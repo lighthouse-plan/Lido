@@ -30,8 +30,9 @@
 	    </xpath>
 		<xpath expr="//t[@t-call='web.NavBar.AppsMenu']" position="replace">
 			<AppsMenu hotkey="'h'" title="'Home Menu'" class="o_navbar_apps_menu" manualOnly="true">
+				
 				<t t-set-slot="toggler">
-					<i class="fa fa-th" />
+					<img class="rounded-circle" style="width:140px" src="muk_web_theme/static/img/lidoo_logo.png" alt="Lidoo"/>
 				</t>
 				<MenuItem
 					t-foreach="apps"
