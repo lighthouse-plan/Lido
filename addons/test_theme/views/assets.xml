@@ -1,0 +1,7 @@
+<odoo>
+    <template id="res_config_settings_view_form" name="My style" inherit_id="muk_web_theme.res_config_settings_view_form">
+    <xpath expr="link[last()]" position="after">
+        <link rel="stylesheet" type="text/scss" href="/test_theme/static/scss/style.scss"/>
+    </xpath>
+</template>
+</odoo>

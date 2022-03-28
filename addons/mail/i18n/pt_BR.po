@@ -3580,7 +3580,7 @@ msgstr "É Membro"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_notification__is_read
 msgid "Is Read"
-msgstr "Está Lido"
+msgstr "Está Lidoo"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel__is_chat

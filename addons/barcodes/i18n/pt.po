@@ -118,7 +118,7 @@ msgstr "Regra de Código de Barras"
 #. module: barcodes
 #: model:ir.model.fields,field_description:barcodes.field_barcodes_barcode_events_mixin___barcode_scanned
 msgid "Barcode Scanned"
-msgstr "Código de Barras lido"
+msgstr "Código de Barras Lidoo"
 
 #. module: barcodes
 #: model:ir.model,name:barcodes.model_res_company
@@ -383,4 +383,4 @@ msgstr ""
 #. module: barcodes
 #: model:ir.model.fields,help:barcodes.field_barcodes_barcode_events_mixin___barcode_scanned
 msgid "Value of the last barcode scanned."
-msgstr "Valor do último código de barras lido."
+msgstr "Valor do último código de barras Lidoo."

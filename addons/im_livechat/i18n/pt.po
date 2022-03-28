@@ -898,7 +898,7 @@ msgstr "A carregar mensagens anteriores..."
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Mark as Read"
-msgstr "Marcar como Lido"
+msgstr "Marcar como Lidoo"
 
 #. module: im_livechat
 #. openerp-web

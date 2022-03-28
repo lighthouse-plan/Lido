@@ -1,1 +1,1 @@
-./odoo-bin --addons-path=addons --database=odoo01  --db_user=zmn --db_password=Zmn1173359575  --db_host=localhost --db_port=5432 -i INIT --limit-memory-hard 0
+./odoo-bin --addons-path=addons --database=test01  --db_user=zmn --db_password=Zmn1173359575  --db_host=localhost --db_port=5432 -i INIT --limit-memory-hard 0

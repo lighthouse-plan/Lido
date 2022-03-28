@@ -4065,7 +4065,7 @@ msgstr "Marcar como Concluído"
 #: code:addons/mail/static/src/components/thread_preview/thread_preview.xml:0
 #, python-format
 msgid "Mark as Read"
-msgstr "Marcar como Lido"
+msgstr "Marcar como Lidoo"
 
 #. module: mail
 #. openerp-web
