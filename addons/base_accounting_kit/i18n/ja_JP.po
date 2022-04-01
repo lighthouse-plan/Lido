@@ -1,0 +1,4509 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Lidoo 1.0\n"
+"Report-Msgid-Bugs-To: no one\n"
+"POT-Creation-Date: 2022-04-01 01:44\n"
+"PO-Revision-Date: 2022-04-01 01:44\n"
+"Last-Translator: mounan <1173359575zzzmn@gmail.com>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid " (copy)"
+msgstr "(コピー)"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid " (grouped)"
+msgstr " (グループ化)"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__entry_count
+msgid "# Asset Entries"
+msgstr "# アセットエントリー"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__depreciation_nbr
+msgid "# of Depreciation Lines"
+msgstr "# 減価償却ライン数"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__installment_nbr
+msgid "# of Installment Lines"
+msgstr "# 割賦線"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/credit_limit.py:0
+#: code:addons/base_accounting_kit/models/credit_limit.py:0
+#, python-format
+msgid "%s is in  Blocking Stage and has a due amount of %s %s to pay"
+msgstr "sはブロッキングステージで、支払期限は%s %sです。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "07/08/2020"
+msgstr "07/08/2020"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "08/07/2020"
+msgstr "08/07/2020"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+msgid ": Bank Book Report"
+msgstr ":通帳記帳"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+msgid ": Cash Book Report"
+msgstr ":現金出納帳"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+msgid ": Day Book Report"
+msgstr ":日報"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+msgid ": General ledger"
+msgstr ":総勘定元帳"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid ": Trial Balance"
+msgstr ":試算表"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_form_view
+msgid "<b>Customer Followup</b>"
+msgstr "<b>カスタマー・フォローアップ</b>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+msgid ""
+"<br/>\n"
+"                                    <strong>Date to :</strong>"
+msgstr ""
+"< br/> \n"
+"<strong>Date to :</strong> <br/> <strong>Date to :</strong> <strong>Date to :</strong"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_kanban
+msgid "<i class=\"fa fa-building\" role=\"img\" aria-label=\"Enterprise\"/>"
+msgstr "< i class=\"fa fa-building\" role=\"img\" aria-label=\"Enterprise\"/>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span class=\"text-nowrap\">$ 18,750.00</span>"
+msgstr "<span class=\"text-nowrap\">$ 18,750."
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid ""
+"<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">\n"
+"                                                       143,750.00</span></span>"
+msgstr ""
+"<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\"\n"
+"> 143,750.00</span></span>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid ""
+"<span class=\"text-nowrap\">$ <span "
+"class=\"oe_currency_value\">117,500.00</span></span>"
+msgstr ""
+"<span class=\"text-nowrap\">$ <span "
+"class=\"oe_currency_value\">117,500.00</span></span><span class=\"text-"
+"nowrap\">$ <span class=\"oe_currency_value\">117,500.00</span></span"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid ""
+"<span class=\"text-nowrap\">$ <span "
+"class=\"oe_currency_value\">7,500.00</span></span>"
+msgstr ""
+"<span class=\"text-nowrap\">$ <span "
+"class=\"oe_currency_value\">7,500.00</span></span>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span class=\"text-nowrap\">1,500.00</span>"
+msgstr "<span class=\"text-nowrap\">1,500 円</span>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span class=\"text-nowrap\">23,500.00</span>"
+msgstr "<span class=\"text-nowrap\">23,500 円</span>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span class=\"text-nowrap\">Tax 15%</span>"
+msgstr "<span class=\"text-nowrap\">税金15%</span>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid ""
+"<span class=\"w-100 o_force_ltr\" itemprop=\"streetAddress\">77 Santa Barbara\n"
+"                                                   Rd<br/>Pleasant Hill CA 94523<br/>United States</span>"
+msgstr ""
+"<span class=\"w-100 o_force_ltr\" itemprop=\"streetAddress\">77 Santa Barbara \n"
+"Rd< br/>Pleasant Hill CA 94523< br/>United States</span>."
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid ""
+"<span groups=\"account.group_show_line_subtotals_tax_excluded\">Amount</span>\n"
+"                                    <span groups=\"account.group_show_line_subtotals_tax_included\">Total Price</span>"
+msgstr ""
+"<span groups=\"account.group_show_line_subtotals_tax_excluded\"> 金額</span> \n"
+"<span groups=\"account.group_show_line_subtotals_tax_included\"> 総額</span> \n"
+"<span groups=\"account.group_show_line_tax_excluded\"> 金額</span> \n"
+"<span groups=\"group\">金額<span> </span>となります。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span id=\"line_tax_ids\">15.00%</span>"
+msgstr "<span id=\"line_tax_ids\">15.00%</span>となります。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span itemprop=\"name\">Deco Addict</span>"
+msgstr ""
+"<span itemprop=\"name\">デコアディクト</span>.Span "
+"itemprop=\"name\">デコアディクト</span>.Span itemprop=\"name\">デコアディクト</span>."
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span>$ <span class=\"oe_currency_value\">125,000.00</span></span>"
+msgstr "<span>$ <span class=\"oe_currency_value\">125,000.00</span></span"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span>5.000</span>"
+msgstr "<br> 5.000</span>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span>Amount</span>"
+msgstr "<span>金額</span>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+msgid "<span>Comp</span>"
+msgstr "<br> <br> <br>コンプ</span>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<span>Description</span>"
+msgstr "<br> <br> <strong>説明</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<span>Disc.%</span>"
+msgstr "<span>ディスク.%</span>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid ""
+"<span>Invoice</span>\n"
+"                           <span>INV/2020/07/0003</span>"
+msgstr ""
+"<span>インボイス</span> \n"
+"<span>INV/2020/07/0003</span> </span"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "<span>Not due</span>"
+msgstr "<br>期限なし</br>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span>Payment terms: 300 Days</span>"
+msgstr "<span>支払い条件。300日間</span>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<span>Quantity</span>"
+msgstr "<br> 数量</br>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span>Sample Name</span>"
+msgstr "<span>サンプル名</span>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<span>Taxes</span>"
+msgstr "<br>税金</br>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<span>Unit Price</span>"
+msgstr "<br> 単価</br>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid ""
+"<span>[FURN_8220] Four Person Desk<br/>\n"
+"                                       Four person modern office workstation</span>"
+msgstr "<span>[FURN_8220] 4人用デスク< br/> 4人用モダンオフィスワークステーション</span></span"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid ""
+"<span>[FURN_8999] Three-Seat Sofa<br/>\n"
+"                                       Three Seater Sofa with Lounger in Steel Grey Colour</span>"
+msgstr "<span>[FURN_8999] 3人掛けソファ< br/> ラウンジャー付き3人掛けソファ（スチールグレー色）</span>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr "<strong class=\"mr16\">小計</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid ""
+"<strong class=\"text-center\">Scan me with your banking "
+"app.</strong><br/><br/>"
+msgstr ""
+"<strong class=\"text-center\">銀行アプリでスキャンしてください</strong>< br/>< br/> <strong "
+"class=\"text-center\">。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<strong>Amount Due</strong>"
+msgstr "<strong>支払額</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+msgid "<strong>Balance</strong>"
+msgstr "<strong>バランス</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
+msgid "<strong>Company:</strong>"
+msgstr "<strong>会社概要</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+msgid "<strong>Credit</strong>"
+msgstr "<strong>信用</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<strong>Customer Code:</strong>"
+msgstr "<strong>顧客コード：</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "<strong>Date from :</strong>"
+msgstr "<strong>Date from :</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "<strong>Date to :</strong>"
+msgstr "<strong>Date to :</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+msgid "<strong>Debit</strong>"
+msgstr "<strong>デビット</strong>カード"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "<strong>Display Account:</strong>"
+msgstr "<strong>Display Account:</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+msgid "<strong>Display Account</strong>"
+msgstr "<strong>アカウント表示</strong>について"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<strong>Due Date:</strong>"
+msgstr "<strong>期限日：</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+msgid "<strong>Entries Sorted By:</strong>"
+msgstr "<strong>Entries Sorted By:</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<strong>Incoterm: </strong>"
+msgstr "<strong>インコターム：</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<strong>Invoice Date:</strong>"
+msgstr "<strong>インボイスの日付：</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+msgid "<strong>Journal:</strong>"
+msgstr "<strong>ジャーナル：</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+msgid "<strong>Journals:</strong>"
+msgstr "<strong>ジャーナル：</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+msgid "<strong>Name</strong>"
+msgstr "<strong>名前</strong>"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "<strong>Partner's:</strong>"
+msgstr "<strong>パートナーズ：</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "<strong>Period Length (days)</strong>"
+msgstr "<strong>期間の長さ（日数）</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
+msgid "<strong>Purchase</strong>"
+msgstr "<strong>購入</strong>する。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<strong>Reference:</strong>"
+msgstr "<strong>参考文献：</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+msgid "<strong>Sorted By:</strong>"
+msgstr "<strong>Sorted By:</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<strong>Source:</strong>"
+msgstr "<strong>出典：</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "<strong>Start Date:</strong>"
+msgstr "<strong>開始日：</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<strong>Subtotal</strong>"
+msgstr "<strong>小計</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "<strong>Target Moves:</strong>"
+msgstr "<strong>対象技：</strong>。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<strong>Total</strong>"
+msgstr "<strong>合計</strong>。"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/payment_matching.py:0
+#, python-format
+msgid "A reconciliation must involve at least 2 move lines."
+msgstr "照合は、少なくとも2つの手番を含む必要があります。"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/payment_matching.py:0
+#: code:addons/base_accounting_kit/models/payment_matching.py:0
+#, python-format
+msgid "A selected move line was already reconciled."
+msgstr "選択した手番がすでに照合されている。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_res_partner__warning_stage
+#: model:ir.model.fields,help:base_accounting_kit.field_res_users__warning_stage
+msgid ""
+"A warning message will appear once the selected customer is crossed warning "
+"amount. Set its value to 0.00 to disable this feature"
+msgstr "選択された顧客が警告金額を超えると、警告メッセージが表示されます。この機能を無効にするには、その値を0.00に設定します。"
+
+#. module: base_accounting_kit
+#: model:res.groups,name:base_accounting_kit.group_account_dashboard
+msgid "Access to Accounting Dashboard"
+msgstr "会計ダッシュボードへのアクセス"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/payment_render.js:0
+#: code:addons/base_accounting_kit/static/src/js/payment_render.js:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: model:ir.model,name:base_accounting_kit.model_account_account
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+#, python-format
+msgid "Account"
+msgstr "アカウント"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_aged_trial_balance
+msgid "Account Aged Trial balance Report"
+msgstr "勘定科目 残高試算表"
+
+#. module: base_accounting_kit
+#: model:ir.actions.server,name:base_accounting_kit.account_asset_cron_ir_actions_server
+#: model:ir.cron,cron_name:base_accounting_kit.account_asset_cron
+#: model:ir.cron,name:base_accounting_kit.account_asset_cron
+msgid "Account Asset: Generate asset entries"
+msgstr "Account Asset：資産項目を生成する"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_bank_book_report
+msgid "Account Bank Book Report"
+msgstr "口座通帳レポート"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_cash_book_report
+msgid "Account Cash Book Report"
+msgstr "現金出納帳レポート"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_common_account_report
+msgid "Account Common Account Report"
+msgstr "アカウント共通アカウントレポート"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_common_partner_report
+msgid "Account Common Partner Report"
+msgstr "アカウントコモンパートナーレポート"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_depreciation_confirmation_wizard__date
+msgid "Account Date"
+msgstr "勘定科目 日付"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_day_book_report
+msgid "Account Day Book Report"
+msgstr "アカウント日報"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_followup
+msgid "Account Follow-up"
+msgstr "アカウントフォローアップ"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_group
+#: model:ir.ui.menu,name:base_accounting_kit.menu_account_group
+msgid "Account Groups"
+msgstr "アカウントグループ"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_report_partner_ledger
+msgid "Account Partner Ledger"
+msgstr "アカウントパートナー台帳"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_print_journal
+msgid "Account Print Journal"
+msgstr "アカウント印刷ジャーナル"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_reconciliation_widget
+msgid "Account Reconciliation widget"
+msgstr "勘定調整表ウィジェット"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_recurring_entries_line
+msgid "Account Recurring Entries Line"
+msgstr "アカウントリカーリングエントリライン"
+
+#. module: base_accounting_kit
+#: model:ir.actions.client,name:base_accounting_kit.action_account_invoice_report_all
+#: model:ir.model,name:base_accounting_kit.model_account_financial_report
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__children_ids
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_financial_report_form
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_financial_report_search
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_financial_report_tree
+msgid "Account Report"
+msgstr "アカウントレポート"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__account_report_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__account_report_id
+#: model:ir.ui.menu,name:base_accounting_kit.menu_account_financial_reports_tree
+msgid "Account Reports"
+msgstr "アカウントレポート"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "Account Total"
+msgstr "アカウント合計"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__type__account_type
+msgid "Account Type"
+msgstr "アカウントの種類"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__account_type_ids
+msgid "Account Types"
+msgstr "アカウントの種類"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__account_depreciation_id
+msgid "Account used in the depreciation entries, to decrease the asset value."
+msgstr "減価償却費の入力に使用される勘定科目で、資産価値を減少させるために使用されます。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__account_depreciation_expense_id
+msgid ""
+"Account used in the periodical entries, to record a part of the asset as "
+"expense."
+msgstr "資産の一部を費用として計上するための、期間損益計算書に使用される勘定科目です。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__account_asset_id
+msgid ""
+"Account used to record the purchase of the asset at its original price."
+msgstr "資産の購入時に使用される勘定科目。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.res_config_settings_view_accounting_kit
+msgid "Accounting"
+msgstr "会計処理"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement__accounting_date
+msgid "Accounting Date"
+msgstr "会計日"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_recurring_payments_form_view
+msgid "Accounting Info"
+msgstr "会計情報"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_recurring_payments
+msgid "Accounting Recurring Payment"
+msgstr "経理定期支払い"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_asset.js:0
+#, python-format
+msgid "Accounting entries waiting for manual verification"
+msgstr "手動確認待ちの会計項目"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__account_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__account_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__account_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__account_ids
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__type__accounts
+msgid "Accounts"
+msgstr "勘定科目"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_needaction
+msgid "Action Needed"
+msgstr "必要な措置"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__active
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__active
+msgid "Active"
+msgstr "活動中"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__active_limit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__active_limit
+msgid "Active Credit Limit"
+msgstr "有効な与信限度額"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "Additional Options"
+msgstr "追加オプション"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_line_form
+msgid "After"
+msgstr "後"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_aged_balance_view
+#: model:ir.actions.report,name:base_accounting_kit.action_report_aged_partner_balance
+#: model:ir.ui.menu,name:base_accounting_kit.menu_aged_trial_balance
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "Aged Partner Balance"
+msgstr "取引先残高"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_agedpartnerbalance
+msgid "Aged Partner Balance Report"
+msgstr "取引先残高報告書"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Aged Payable"
+msgstr "未払金"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Aged Receivable"
+msgstr "未収入金"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_balance_report__display_account__all
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_bank_book_report__display_account__all
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_cash_book_report__display_account__all
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_common_account_report__display_account__all
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_general_ledger__display_account__all
+msgid "All"
+msgstr "全て"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_bank_book_report__target_move__all
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_cash_book_report__target_move__all
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_day_book_report__target_move__all
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "All Entries"
+msgstr "すべての項目"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_bank_book_report__target_move__posted
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_cash_book_report__target_move__posted
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_day_book_report__target_move__posted
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "All Posted Entries"
+msgstr "すべての投稿エントリ"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "All accounts"
+msgstr "すべての勘定科目"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+msgid "All accounts'"
+msgstr "すべての勘定科目の"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid ""
+"All invoices and payments have been matched, your accounts' balances are "
+"clean."
+msgstr "すべての請求書と支払いが照合され、アカウントの残高はきれいな状態です。"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__amount
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__amount
+#, python-format
+msgid "Amount"
+msgstr "金額"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__depreciation_value
+msgid "Amount of Depreciation Lines"
+msgstr "減価償却費の金額"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__installment_value
+msgid "Amount of Installment Lines"
+msgstr "分割払いの金額"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Analytic Acc."
+msgstr "分析口座"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__account_analytic_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__analytic_account_id
+msgid "Analytic Account"
+msgstr "分析アカウント"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Analytic Tags."
+msgstr "アナリティクスタグ"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__asset_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__asset_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Asset"
+msgstr "アセット"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__account_asset_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
+msgid "Asset Account"
+msgstr "資産勘定"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move_line__asset_category_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_invoice_asset_category
+msgid "Asset Category"
+msgstr "資産カテゴリー"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.asset_modify_form
+msgid "Asset Durations to Modify"
+msgstr "修正する資産期間"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move_line__asset_end_date
+msgid "Asset End Date"
+msgstr "アセット終了日"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__asset_method_time
+msgid "Asset Method Time"
+msgstr "アセットメソッド時間"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__name
+msgid "Asset Name"
+msgstr "資産名"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move_line__asset_start_date
+msgid "Asset Start Date"
+msgstr "アセット開始日"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_product_product__asset_category_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_product_template__asset_category_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "Asset Type"
+msgstr "アセットタイプ"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_asset_asset_list_normal_purchase
+#: model:ir.ui.menu,name:base_accounting_kit.menu_action_account_asset_asset_list_normal_purchase
+msgid "Asset Types"
+msgstr "アセットタイプ"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_asset_category
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__asset_category_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_tree
+msgid "Asset category"
+msgstr "アセットカテゴリー"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid "Asset created"
+msgstr "作成された資産"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_asset_depreciation_line
+msgid "Asset depreciation line"
+msgstr "資産減価償却費ライン"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid "Asset sold or disposed. Accounting entry awaiting for validation."
+msgstr "資産を売却または処分した会計入力は検証待ちです。"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_asset_asset
+msgid "Asset/Revenue Recognition"
+msgstr "資産/収益の認識"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_assets0
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_asset_asset_form
+#: model:ir.ui.menu,name:base_accounting_kit.menu_action_account_asset_asset_form
+#: model:ir.ui.menu,name:base_accounting_kit.menu_action_asset_asset_report
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_purchase_tree
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
+msgid "Assets"
+msgstr "資産"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_asset_asset_report
+#: model:ir.model,name:base_accounting_kit.model_asset_asset_report
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.action_account_asset_report_graph
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.action_account_asset_report_pivot
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Assets Analysis"
+msgstr "資産分析"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_line__asset_depreciation_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move__asset_depreciation_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__asset_depreciation_ids
+msgid "Assets Depreciation Lines"
+msgstr "資産減価償却費ライン"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.menu_finance_config_assets
+msgid "Assets and Revenues"
+msgstr "資産と収益"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
+msgid "Assets in closed state"
+msgstr "閉鎖状態の資産"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
+msgid "Assets in draft and open states"
+msgstr "ドラフトおよびオープン状態の資産"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Assets in draft state"
+msgstr "下書き状態の資産"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Assets in running state"
+msgstr "稼働中の資産"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_attachment_count
+msgid "Attachment Count"
+msgstr "添付ファイル数"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.account_reports_audit
+msgid "Audit Reports"
+msgstr "監査報告書"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__open_asset
+msgid "Auto-confirm Assets"
+msgstr "アセット自動確認"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__0
+msgid "Automatic formatting"
+msgstr "自動書式設定"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "BANK AND CASH BALANCE"
+msgstr "銀行・現金残高"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "Balance"
+msgstr "バランス"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_balancesheet0
+#: model:ir.actions.act_window,name:base_accounting_kit.action_balance_sheet_report
+#: model:ir.ui.menu,name:base_accounting_kit._account_financial_reports_balance_sheet
+msgid "Balance Sheet"
+msgstr "貸借対照表"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.account_bank_book_menu
+msgid "Bank Book"
+msgstr "バンクブック"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_bank_book_view
+#: model:ir.actions.report,name:base_accounting_kit.action_report_bank_book
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_bank_book_form_view
+msgid "Bank Book Report"
+msgstr "銀行帳簿レポート"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/payment_matching.js:0
+#, python-format
+msgid "Bank Reconciliation"
+msgstr "バンク・レコンシリエーション"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_company__account_bank_reconciliation_start
+msgid "Bank Reconciliation Threshold"
+msgstr "銀行勘定調整表のしきい値"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__bank_reference
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment_register__bank_reference
+msgid "Bank Reference"
+msgstr "銀行参照"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_bank_statement
+msgid "Bank Statement"
+msgstr "銀行取引明細書"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_bank_statement_line
+msgid "Bank Statement Line"
+msgstr "銀行明細行"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+msgid "Base Amount"
+msgstr "基準額"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__blocking_stage
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__blocking_stage
+msgid "Blocking Amount"
+msgstr "ブロッキング量"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_journal__body_text_position
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__body_text_position
+msgid "Body Text Position"
+msgstr "本文の位置"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__body_text_position__bl
+msgid "Bottom Left"
+msgstr "左下"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__body_text_position__br
+msgid "Bottom Right"
+msgstr "右下"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_aged_balance_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_bank_book_form_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_cash_book_form_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_day_book_form_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_update_lock_date_form_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.asset_modify_form
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_depreciation_confirmation_wizard
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_multiple_invoice_layout
+msgid "Cancel"
+msgstr "キャンセル"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "Cancelled Invoice"
+msgstr "請求書の取り消し"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_res_partner__blocking_stage
+#: model:ir.model.fields,help:base_accounting_kit.field_res_users__blocking_stage
+msgid ""
+"Cannot make sales once the selected customer is crossed blocking amount.Set "
+"its value to 0.00 to disable this feature"
+msgstr "この機能を無効にするには、この値を0.00に設定します。"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.account_cash_book_menu
+msgid "Cash Book"
+msgstr "現金出納帳"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_cash_book_view
+#: model:ir.actions.report,name:base_accounting_kit.action_report_cash_book
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_cash_book_form_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_day_book_form_view
+msgid "Cash Book Report"
+msgstr "キャッシュブックレポート"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_cash_flow_report
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_cash_flow
+msgid "Cash Flow Report"
+msgstr "キャッシュフローレポート"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_cash_flow0
+#: model:ir.actions.act_window,name:base_accounting_kit.action_cash_flow_report
+#: model:ir.actions.report,name:base_accounting_kit.action_report_cash_flow
+#: model:ir.ui.menu,name:base_accounting_kit.menu_account_cash_flow_report
+msgid "Cash Flow Statement"
+msgstr "キャッシュフロー計算書"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_account__cash_flow_type
+msgid "Cash Flow type"
+msgstr "キャッシュフロータイプ"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.cash_in_financial0
+#: model:account.financial.report,name:base_accounting_kit.cash_in_from_operation0
+#: model:account.financial.report,name:base_accounting_kit.cash_in_investing0
+msgid "Cash In"
+msgstr "キャッシュイン"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.cash_out_financial1
+#: model:account.financial.report,name:base_accounting_kit.cash_out_investing1
+#: model:account.financial.report,name:base_accounting_kit.cash_out_operation1
+msgid "Cash Out"
+msgstr "キャッシュアウト"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__category_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
+msgid "Category"
+msgstr "カテゴリー"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Category of asset"
+msgstr "資産区分"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__text_align__center
+msgid "Center"
+msgstr "センター"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Check all"
+msgstr "すべてチェック"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Check that you have no bank statement lines to"
+msgstr "に銀行明細行がないことを確認します。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__open_asset
+msgid ""
+"Check this if you want to automatically confirm the assets of this category "
+"when created by invoices."
+msgstr "請求書作成時にこのカテゴリの資産を自動的に確認したい場合は、チェックを入れてください。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__group_entries
+msgid "Check this if you want to group the generated entries by categories."
+msgstr "作成された項目をカテゴリー別にグループ化したい場合はチェックを入れてください。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__cheque_reference
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment_register__cheque_reference
+msgid "Cheque Reference"
+msgstr "小切手参照"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Choose counterpart or Create Write-off"
+msgstr "相手先を選択するか、償却を作成する"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__method
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__method
+msgid ""
+"Choose the method to use to compute the amount of depreciation lines.\n"
+"  * Linear: Calculated on basis of: Gross Value / Number of Depreciations\n"
+"  * Degressive: Calculated on basis of: Residual Value * Degressive Factor"
+msgstr ""
+"減価償却線の金額を計算する方法を選んでください。\n"
+" * リニア。を基準に計算されます。総価値 / 減価償却回数 \n"
+"* 累進法。\n"
+"減価償却費の計算方法を選択します。残存価値 * 減価償却係数"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__method_time
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__method_time
+msgid ""
+"Choose the method to use to compute the dates and number of entries.\n"
+"  * Number of Entries: Fix the number of entries and the time between 2 depreciations.\n"
+"  * Ending Date: Choose the time between 2 depreciations and the date the depreciations won't go beyond."
+msgstr ""
+"日付と件数の計算方法を選択してください。\n"
+" * エントリー数エントリ数：エントリ数と2回の減価償却の間の時間を固定します。\n"
+" * 終了日。終了日：2回の減価償却の間の時間と、減価償却がそれ以上進まない日付を選択します。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_asset_depreciation_confirmation_wizard__date
+msgid ""
+"Choose the period for which you want to automatically post the depreciation "
+"lines of running assets"
+msgstr "ランニング資産の減価償却費を自動的に計上する期間を選択します。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.actions.act_window,help:base_accounting_kit.action_account_recurring_payments_view
+msgid "Click to create new recurring payment template"
+msgstr "クリックすると定期支払いテンプレートを新規作成します"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__state__close
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__asset_asset_report__state__close
+#, python-format
+msgid "Close"
+msgstr "閉じる"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Close statement"
+msgstr "明細書を閉じる"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
+msgid "Closed"
+msgstr "閉じる"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "Code"
+msgstr "コード"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__label_filter
+msgid "Column Label"
+msgstr "カラムラベル"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_res_company
+msgid "Companies"
+msgstr "企業名"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__company_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Company"
+msgstr "会社名"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup__name
+msgid "Company Name"
+msgstr "会社名"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.cash_flow_report_view
+msgid "Comparison"
+msgstr "比較対象"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__method
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__method
+msgid "Computation Method"
+msgstr "計算方法"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_depreciation_confirmation_wizard
+msgid "Compute Asset"
+msgstr "資産の計算"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Compute Depreciation"
+msgstr "減価償却費の計算"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_res_config_settings
+msgid "Config Settings"
+msgstr "コンフィグ設定"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_view_form
+msgid "Configure Copy Layout"
+msgstr "コピーレイアウトの設定"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_multiple_invoice_layout_configurator
+msgid "Configure Copy layout"
+msgstr "コピーレイアウトの設定"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Confirm"
+msgstr "確認"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Congrats, you're all done!"
+msgstr "おめでとうございます！これで完了です。"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_res_partner
+msgid "Contact"
+msgstr "連絡先"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.financial_report_cost_of_revenue
+msgid "Cost of Revenue"
+msgstr "売上原価"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Create a counterpart"
+msgstr "カウンターパートを作成する"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Create model"
+msgstr "モデル作成"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/wizard/asset_depreciation_confirmation_wizard.py:0
+#, python-format
+msgid "Created Asset Moves"
+msgstr "作成された資産の移動"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/wizard/asset_depreciation_confirmation_wizard.py:0
+#, python-format
+msgid "Created Revenue Moves"
+msgstr "作成された収益の動き"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_depreciation_confirmation_wizard__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__create_uid
+msgid "Created by"
+msgstr "作成者"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_depreciation_confirmation_wizard__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__create_date
+msgid "Created on"
+msgstr "作成日"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "Credit"
+msgstr "クレジット"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__credit_account
+msgid "Credit Account"
+msgstr "クレジットアカウント"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_customer_form
+msgid "Credit Limit"
+msgstr "与信限度額"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__enable_credit_limit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__enable_credit_limit
+msgid "Credit Limit Enabled"
+msgstr "与信枠を有効にする"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "Credit Note"
+msgstr "クレジットノート"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__depreciated_value
+msgid "Cumulative Depreciation"
+msgstr "減価償却累計額"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__currency_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#, python-format
+msgid "Currency"
+msgstr "通貨"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
+msgid "Current"
+msgstr "現在"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__amount
+msgid "Current Depreciation"
+msgstr "現在の減価償却費"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_config_settings__customer_credit_limit
+msgid "Customer Credit Limit"
+msgstr "顧客与信枠"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Customer Invoice"
+msgstr "顧客インボイス"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Customer/Vendor Matching"
+msgstr "顧客とベンダーのマッチング"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.account_reports_daily_reports
+msgid "Daily Reports"
+msgstr "デイリーレポート"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: model:ir.ui.menu,name:base_accounting_kit.menu_accounting_dashboard
+#, python-format
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__date
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_bank_book_report__sortby__sort_date
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_cash_book_report__sortby__sort_date
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_print_journal__sort_selection__date
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_general_ledger__sortby__sort_date
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__cash_flow_report__filter_cmp__filter_date
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#, python-format
+msgid "Date"
+msgstr "日付"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__date_to_cmp
+msgid "Date End"
+msgstr "終了日"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__date_from_cmp
+msgid "Date Start"
+msgstr "開始日"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Date of asset"
+msgstr "資産計上日"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Date of asset purchase"
+msgstr "資産購入日"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Date of depreciation"
+msgstr "減価償却実施日"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.cash_flow_report_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.financial_report_wiz_modified
+msgid "Dates"
+msgstr "日付"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.account_day_book_menu
+msgid "Day Book"
+msgstr "日めくり"
+
+#. module: base_accounting_kit
+#: model:ir.actions.report,name:base_accounting_kit.day_book_pdf_report
+msgid "Day Book PDF Report"
+msgstr "日めくりPDFレポート"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_day_book_view
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_day_book_report_template
+msgid "Day Book Report"
+msgstr "デイ・ブック・レポート"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__recurring_period__days
+msgid "Days"
+msgstr "日数"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "Debit"
+msgstr "デビット"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__debit_account
+msgid "Debit Account"
+msgstr "デビットアカウント"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "Deferred Revenue Account"
+msgstr "繰延収益勘定"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_product_product__deferred_revenue_category_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_product_template__deferred_revenue_category_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "Deferred Revenue Type"
+msgstr "繰延収益の種類"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
+msgid "Deferred Revenues"
+msgstr "繰延収益"
+
+#. module: base_accounting_kit
+#: model_terms:ir.actions.act_window,help:base_accounting_kit.action_account_followup_definition_form
+msgid "Define follow-up levels and their related actions"
+msgstr "フォローアップのレベルとそれに関連するアクションを定義する"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__method__degressive
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_category__method__degressive
+msgid "Degressive"
+msgstr "デグレッシブ"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__method_progress_factor
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__method_progress_factor
+msgid "Degressive Factor"
+msgstr "退行係数"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Depreciation"
+msgstr "減価償却費"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Depreciation Board"
+msgstr "減価償却ボード"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__depreciation_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__depreciation_date
+msgid "Depreciation Date"
+msgstr "減価償却実施日"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__account_depreciation_id
+msgid "Depreciation Entries: Asset Account"
+msgstr "減価償却費の入力資産勘定"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__account_depreciation_expense_id
+msgid "Depreciation Entries: Expense Account"
+msgstr "減価償却費の記入費用勘定"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__move_id
+msgid "Depreciation Entry"
+msgstr "減価償却費の入力"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Depreciation Information"
+msgstr "減価償却情報"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__depreciation_line_ids
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Depreciation Lines"
+msgstr "減価償却ライン"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "Depreciation Method"
+msgstr "減価償却方法"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Depreciation Month"
+msgstr "減価償却月数"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__name
+msgid "Depreciation Name"
+msgstr "減価償却費名"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/wizard/asset_modify.py:0
+#, python-format
+msgid "Depreciation board modified"
+msgstr "減価償却ボード修正"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid "Depreciation line posted."
+msgstr "減価償却費を掲載しました。"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__description
+#, python-format
+msgid "Description"
+msgstr "商品説明"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_recurring_payments_form_view
+msgid "Description..."
+msgstr "説明..."
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.financial_report_wiz_modified
+msgid "Discard"
+msgstr "廃棄"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__display_account
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__display_account
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__display_account
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__display_account
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__display_account
+msgid "Display Accounts"
+msgstr "勘定科目表示"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__debit_credit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__debit_credit
+msgid "Display Debit/Credit Columns"
+msgstr "借方・貸方の列を表示する"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_depreciation_confirmation_wizard__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__display_name
+msgid "Display Name"
+msgstr "表示名"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_journal__multiple_invoice_type
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__multiple_invoice_type
+msgid "Display Type"
+msgstr "表示タイプ"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__display_detail__detail_flat
+msgid "Display children flat"
+msgstr "フラットな子画面表示"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__display_detail__detail_with_hierarchy
+msgid "Display children with hierarchy"
+msgstr "階層化された子画面表示"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__display_detail
+msgid "Display details"
+msgstr "詳細表示"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid "Disposal Move"
+msgstr "廃棄処分の動き"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid "Disposal Moves"
+msgstr "廃棄処分の移動"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__text_position__body
+msgid "Document Body"
+msgstr "ドキュメント本体"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid "Document closed."
+msgstr "ドキュメントを閉じました。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__state__draft
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__state__draft
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__asset_asset_report__state__draft
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Draft"
+msgstr "下書き"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "Draft Invoice"
+msgstr "請求書（案"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Due Date"
+msgstr "期限"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__delay
+msgid "Due Days"
+msgstr "期限日数"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__effective_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment_register__effective_date
+msgid "Effective Date"
+msgstr "有効期限"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_payment__effective_date
+#: model:ir.model.fields,help:base_accounting_kit.field_account_payment_register__effective_date
+msgid "Effective date of PDC"
+msgstr "PDCの発効日"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/payment_matching.py:0
+#, python-format
+msgid "Either pass both debit and credit or none."
+msgstr "デビットとクレジットの両方を通すか、通さないかのどちらかです。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__enable_filter
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__enable_filter
+msgid "Enable Comparison"
+msgstr "比較を有効にする"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.es_config_settings_view_form_base_accounting_kit
+msgid "Enable credit limit for customers"
+msgstr "顧客の与信枠を有効にする"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__date_to
+msgid "End Date"
+msgstr "終了日"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__method_end
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__method_time__end
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_category__method_time__end
+msgid "Ending Date"
+msgstr "終了日"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__method_end
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__method_end
+msgid "Ending date"
+msgstr "終了日"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__sort_selection
+msgid "Entries Sorted by"
+msgstr "並び順"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+msgid "Entry Label"
+msgstr "項目名"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_expense0
+msgid "Expense"
+msgstr "費用"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Extended Filters..."
+msgstr "拡張フィルタ..."
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "External link"
+msgstr "外部リンク"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__filter_cmp
+msgid "Filter by"
+msgstr "フィルタリング"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Filter on account, label, partner, amount,..."
+msgstr "アカウント、ラベル、パートナー、金額、...でフィルタリングします。"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_financial
+msgid "Financial Report"
+msgstr "財務報告書"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__style_overwrite
+msgid "Financial Report Style"
+msgstr "財務報告書スタイル"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_financial_report_tree
+#: model:ir.model,name:base_accounting_kit.model_financial_report
+msgid "Financial Reports"
+msgstr "財務報告書"
+
+#. module: base_accounting_kit
+#: model:ir.actions.report,name:base_accounting_kit.financial_report_pdf
+msgid "Financial reports"
+msgstr "財務報告書"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_financing_activity1
+msgid "Financing Activities"
+msgstr "財務活動"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__followup_id
+msgid "Follow Ups"
+msgstr "フォローアップ"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__name
+msgid "Follow-Up Action"
+msgstr "フォローアップ活動"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup__followup_line_ids
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_form
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_tree
+msgid "Follow-up"
+msgstr "フォローアップ"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_followup_line
+msgid "Follow-up Criteria"
+msgstr "フォローアップの基準"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.account_followup_menu
+msgid "Follow-up Levels"
+msgstr "フォローアップのレベル"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_view_list_customer_statements
+#: model:ir.ui.menu,name:base_accounting_kit.customer_statements_menu
+msgid "Follow-up Reports"
+msgstr "フォローアップレポート"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_tree_view
+msgid "Follow-up Reports Tree View"
+msgstr "フォローアップレポートのツリー表示"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_line_form
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_line_tree
+msgid "Follow-up Steps"
+msgstr "フォローアップステップ"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_follower_ids
+msgid "Followers"
+msgstr "フォロワー"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "フォロワー（パートナー）"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__followup_status
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__followup_status
+msgid "Followup status"
+msgstr "フォローアップの状況"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__text_position__footer
+msgid "Footer"
+msgstr "フッター"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_financial_report__sign
+msgid ""
+"For accounts that are typically more debited than credited and that you "
+"would like to print as negative amounts in your reports, you should reverse "
+"the sign of the balance; e.g.: Expense account. The same applies for "
+"accounts that are typically more credited than debited and that you would "
+"like to print as positive amounts in your reports; e.g.: Income account."
+msgstr ""
+"通常、貸方より借方の方が多い勘定科目で、報告書にマイナスの金額として印刷したい場合は、残高の符号を逆にします（例）。例：支出勘定また、通常、借方より貸方の方が多い勘定科目で、報告書では正の金額で印刷したい場合も同様です。例：収入勘定"
+
+#. module: base_accounting_kit
+#: model_terms:ir.actions.act_window,help:base_accounting_kit.action_account_followup_definition_form
+msgid ""
+"For each step, specify the actions to be taken and delay in days. It is\n"
+"                possible to use print and e-mail templates to send specific messages to\n"
+"                the customer."
+msgstr ""
+"各ステップについて、実行するアクションと日数での遅延を指定します。\n"
+"印刷や電子メールのテンプレートを使って、\n"
+"お客様に\n"
+"特定のメッセージを送ることが可能です。"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/report/account_bank_book.py:0
+#: code:addons/base_accounting_kit/report/account_cash_book.py:0
+#: code:addons/base_accounting_kit/report/account_day_book.py:0
+#: code:addons/base_accounting_kit/report/cash_flow_report.py:0
+#: code:addons/base_accounting_kit/report/general_ledger_report.py:0
+#: code:addons/base_accounting_kit/report/report_aged_partner.py:0
+#: code:addons/base_accounting_kit/report/report_journal_audit.py:0
+#: code:addons/base_accounting_kit/report/report_partner_ledger.py:0
+#: code:addons/base_accounting_kit/report/report_tax.py:0
+#: code:addons/base_accounting_kit/report/report_trial_balance.py:0
+#, python-format
+msgid "Form content is missing, this report cannot be printed."
+msgstr "フォームの内容が不足しているため、このレポートを印刷することはできません。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__view_format
+msgid "Format"
+msgstr "書式"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "From now on, you may want to:"
+msgstr "これからは"
+
+#. module: base_accounting_kit
+#: model_terms:ir.actions.act_window,help:base_accounting_kit.action_asset_asset_report
+msgid ""
+"From this report, you can have an overview on all depreciations. The\n"
+"            search bar can also be used to personalize your assets depreciation reporting."
+msgstr ""
+"このレポートから、すべての減価償却費の概要を把握することができます。また、\n"
+"検索バーを使って、資産の減価償却レポートをパーソナライズすることもできます。"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_general_ledger_menu
+#: model:ir.actions.report,name:base_accounting_kit.action_report_general_ledger
+#: model:ir.ui.menu,name:base_accounting_kit.menu_general_ledger
+msgid "General Ledger"
+msgstr "総勘定元帳"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_report_general_ledger
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_general_ledger
+msgid "General Ledger Report"
+msgstr "総勘定元帳レポート"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.menu_asset_depreciation_confirmation_wizard
+msgid "Generate Assets Entries"
+msgstr "資産項目の作成"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_depreciation_confirmation_wizard
+msgid "Generate Entries"
+msgstr "入力項目の作成"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__journal_state
+msgid "Generate Journal As"
+msgstr "仕訳帳を作成する"
+
+#. module: base_accounting_kit
+#: model:ir.actions.server,name:base_accounting_kit.recurring_template_cron_ir_actions_server
+#: model:ir.cron,cron_name:base_accounting_kit.recurring_template_cron
+#: model:ir.cron,name:base_accounting_kit.recurring_template_cron
+msgid "Generate Recurring Entries"
+msgstr "定期的な入力の生成"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.account_reports_generic_statements
+msgid "Generic Statements"
+msgstr "一般的なステートメント"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_followup_line__sequence
+msgid "Gives the sequence order when displaying a list of follow-up lines."
+msgstr "フォローアップ行のリストを表示する際の順序を指定します。"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Go to bank statement(s)"
+msgstr "銀行取引明細書へ移動"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Good Job!"
+msgstr "Good Job!"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__gross_value
+msgid "Gross Amount"
+msgstr "売上総利益"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.financial_report_gross_profit
+msgid "Gross Profit"
+msgstr "売上総利益"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__value
+msgid "Gross Value"
+msgstr "グロスバリュー"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Gross value of asset"
+msgstr "総資産額"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_financial_report_search
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Group By"
+msgstr "グループ別"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
+msgid "Group By..."
+msgstr "グループ別..."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__group_entries
+msgid "Group Journal Entries"
+msgstr "グループ仕訳帳"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_line__has_due
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move__has_due
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__has_due
+#: model:ir.model.fields,field_description:base_accounting_kit.field_sale_order__has_due
+msgid "Has Due"
+msgstr "期限付き"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__has_message
+msgid "Has Message"
+msgstr "メッセージ"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__text_position__header
+msgid "Header"
+msgstr "ヘッダー"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__financial_report__view_format__horizontal
+msgid "Horizontal"
+msgstr "横型"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_depreciation_confirmation_wizard__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__id
+msgid "ID"
+msgstr "ID"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "INVOICES"
+msgstr "INVOICES"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_needaction
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "チェックした場合、新しいメッセージには注意が必要です。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_has_error
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "チェックした場合、一部のメッセージに配送エラーが発生します。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_bank_statement__accounting_date
+msgid ""
+"If set, the accounting entries created during the bank statement reconciliation process will be created at this date.\n"
+"This is useful if the accounting period in which the entries should normally be booked is already closed."
+msgstr ""
+"設定すると、銀行明細書の照合処理で作成される会計項目は、この日付で作成されます。\n"
+"これは、通常、会計項目が計上されるべき会計期間が既に終了している場合に有効です。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_bank_book_report__initial_balance
+#: model:ir.model.fields,help:base_accounting_kit.field_account_cash_book_report__initial_balance
+#: model:ir.model.fields,help:base_accounting_kit.field_account_report_general_ledger__initial_balance
+msgid ""
+"If you selected date, this field allow you to add a row to display the "
+"amount of debit/credit/balance that precedes the filter you've set."
+msgstr "日付を選択した場合、このフィールドには、設定したフィルターより前の借方/貸方/残高の金額を表示する行を追加することができます。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__res_partner__followup_status__in_need_of_action
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_search_view
+msgid "In need of action"
+msgstr "アクションが必要な場合"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_payment.py:0
+#, python-format
+msgid ""
+"In order to print multiple checks at once, they must belong to the same bank"
+" journal."
+msgstr "複数の小切手を一度に印刷するには、それらが同じ銀行ジャーナルに属している必要があります。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__initial_balance
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__initial_balance
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__initial_balance
+msgid "Include Initial Balances"
+msgstr "初期残高を含む"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_income0
+msgid "Income"
+msgstr "収入"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Income/Expense"
+msgstr "収入/支出"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__prorata
+msgid ""
+"Indicates that the first depreciation entry for this asset have to be done "
+"from the purchase date instead of the first January / Start date of fiscal "
+"year"
+msgstr "この資産の最初の減価償却は、最初の1月/会計年度の開始日ではなく購入日から行う必要があることを示します。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__prorata
+msgid ""
+"Indicates that the first depreciation entry for this asset have to be done "
+"from the purchase date instead of the first of January"
+msgstr "この資産の最初の減価償却は、1月1日ではなく、購入日から行わなければならないことを示します。"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_investing_activity0
+msgid "Investing Activities"
+msgstr "投資活動"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__invoice_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+#, python-format
+msgid "Invoice"
+msgstr "インボイス"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice__copy_name
+msgid "Invoice Copy Name"
+msgstr "インボイスコピー名"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__invoice_list
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__invoice_list
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_form_view
+msgid "Invoice Details"
+msgstr "インボイスの詳細"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_is_follower
+msgid "Is Follower"
+msgstr "フォロワー"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_line__is_warning
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move__is_warning
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__is_warning
+#: model:ir.model.fields,field_description:base_accounting_kit.field_sale_order__is_warning
+msgid "Is Warning"
+msgstr "警告"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_report_partner_ledger__amount_currency
+msgid ""
+"It adds the currency column on report if the currency differs from the "
+"company currency."
+msgstr "通貨が社内通貨と異なる場合、報告書に通貨欄を追加するようにしました。"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/payment_matching.py:0
+#, python-format
+msgid ""
+"It is mandatory to specify an account and a journal to create a write-off."
+msgstr "償却を行うには、勘定科目と仕訳の指定が必須です。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__salvage_value
+msgid "It is the amount you plan to have that you cannot depreciate."
+msgstr "減価償却ができない予定額です。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__5
+msgid "Italic Text (smaller)"
+msgstr "イタリック体（小さくなります）"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.payment_matching_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Items"
+msgstr "項目"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+msgid "JRNL"
+msgstr "JRNL"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: model:ir.model,name:base_accounting_kit.model_account_journal
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__journal_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__journal_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice__journal_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__journal_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#, python-format
+msgid "Journal"
+msgstr "ジャーナル"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_bank_book_report__sortby__sort_journal_partner
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_cash_book_report__sortby__sort_journal_partner
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_general_ledger__sortby__sort_journal_partner
+msgid "Journal & Partner"
+msgstr "ジャーナル＆パートナー"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+#, python-format
+msgid "Journal Entries"
+msgstr "ジャーナルエントリー"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_move
+msgid "Journal Entry"
+msgstr "ジャーナルエントリー"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_line__move_name
+msgid "Journal Entry Name"
+msgstr "ジャーナルエントリー名"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_print_journal__sort_selection__move_name
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+msgid "Journal Entry Number"
+msgstr "ジャーナルエントリー番号"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_move_line
+msgid "Journal Item"
+msgstr "ジャーナル項目"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/payment_matching.py:0
+#, python-format
+msgid "Journal Items"
+msgstr "ジャーナル項目"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/payment_matching.js:0
+#, python-format
+msgid "Journal Items to Reconcile"
+msgstr "照合する仕訳項目"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_journal_audit
+msgid "Journal Report"
+msgstr "ジャーナルレポート"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+msgid "Journal and Partner"
+msgstr "ジャーナルとパートナー"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__journal_ids
+msgid "Journals"
+msgstr "ジャーナル"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_print_journal_menu
+#: model:ir.actions.report,name:base_accounting_kit.action_report_journal
+#: model:ir.ui.menu,name:base_accounting_kit.menu_print_journal
+msgid "Journals Audit"
+msgstr "ジャーナル監査"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_journal__layout
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__layout
+msgid "Key"
+msgstr "キー"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/payment_render.js:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#, python-format
+msgid "Label"
+msgstr "ラベル"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_depreciation_confirmation_wizard____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout____last_update
+msgid "Last Modified on"
+msgstr "最終更新日"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Last Month"
+msgstr "最終月"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Last Reconciliation:"
+msgstr "最後の照合"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_depreciation_confirmation_wizard__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__write_uid
+msgid "Last Updated by"
+msgstr "最終更新者"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_depreciation_confirmation_wizard__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__write_date
+msgid "Last Updated on"
+msgstr "最終更新日"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Last Year"
+msgstr "最終年"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__text_align__left
+msgid "Left"
+msgstr "左"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__level
+msgid "Level"
+msgstr "レベル"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_liability0
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_liabilitysum0
+msgid "Liability"
+msgstr "責任"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__method__linear
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_category__method__linear
+msgid "Linear"
+msgstr "リニア"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__move_check
+msgid "Linked"
+msgstr "連動"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Load more"
+msgstr "ロードモア"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Load more... ("
+msgstr "もっと読む...("
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date__fiscalyear_lock_date
+msgid "Lock Date"
+msgstr "ロック期日"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date__period_lock_date
+msgid "Lock Date for Non-Advisers"
+msgstr "非アドバイザーのロック期日"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.menu_lock_dates
+msgid "Lock Dates"
+msgstr "ロック期日"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_lock_date
+msgid "Lock date for accounting"
+msgstr "会計ロック日"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.account_update_lock_date_act_window
+msgid "Lock your Fiscal Period"
+msgstr "決算期をロックする"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.bold
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.boxed
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.standard
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.striped
+msgid "Logo"
+msgstr "ロゴマーク"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "主な添付資料"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__1
+msgid "Main Title 1 (bold, underlined)"
+msgstr "メインタイトル1（太字、下線）"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Manual Operations"
+msgstr "マニュアル操作"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Match with entries that are not from receivable/payable accounts"
+msgstr "売掛金/買掛金以外の項目と一致する"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_has_error
+msgid "Message Delivery error"
+msgstr "メッセージの配信エラー"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_ids
+msgid "Messages"
+msgstr "メッセージ"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Miscellaneous Matching"
+msgstr "その他のマッチング"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.asset_modify_form
+msgid "Modify"
+msgstr "修正"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_asset_modify
+#: model:ir.model,name:base_accounting_kit.model_asset_modify
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.asset_modify_form
+msgid "Modify Asset"
+msgstr "資産の修正"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Modify Depreciation"
+msgstr "減価償却費の修正"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Modify models"
+msgstr "モデルチェンジ"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_form_view
+msgid "Module !"
+msgstr "モジュール!"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
+msgid "Month"
+msgstr "月"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move_line__asset_mrr
+msgid "Monthly Recurring Revenue"
+msgstr "月次経常収益"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__recurring_period__months
+msgid "Months"
+msgstr "月別"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+msgid "Move"
+msgstr "移動"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_journal__multiple_invoice_ids
+msgid "Multiple Invoice"
+msgstr "マルチインボイス"
+
+#. module: base_accounting_kit
+#: model:ir.actions.report,name:base_accounting_kit.report_multiple_invoice_copies
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_view_form
+msgid "Multiple Invoice Copies"
+msgstr "請求書の複数部数"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_multiple_invoice_layout
+msgid "Multiple Invoice Document Layout"
+msgstr "複数の請求書ドキュメントのレイアウト"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__template_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__name
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+msgid "Name"
+msgstr "名称"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
+msgid "Net"
+msgstr "ネット"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Net Profit or Loss"
+msgstr "純利益または損失"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "New"
+msgstr "新規"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__remaining_value
+msgid "Next Period Depreciation"
+msgstr "次期の減価償却費"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__next_reminder_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__next_reminder_date
+msgid "Next Reminder Date"
+msgstr "次回の督促日"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__next_date
+msgid "Next Schedule"
+msgstr "次の予定"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__cash_flow_report__filter_cmp__filter_no
+msgid "No Filters"
+msgstr "フィルタなし"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__res_partner__followup_status__no_action_needed
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_search_view
+msgid "No action needed"
+msgstr "アクション不要"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__display_detail__no_detail
+msgid "No detail"
+msgstr "詳細なし"
+
+#. module: base_accounting_kit
+#: model_terms:ir.actions.act_window,help:base_accounting_kit.action_view_list_customer_statements
+msgid "No follow-up to send!"
+msgstr "フォローアップを送信する必要はありません"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_lock_date__fiscalyear_lock_date
+msgid ""
+"No users, including Advisers, can edit accounts prior to and inclusive of "
+"this date. Use it for fiscal year locking for example."
+msgstr ""
+"Advisorを含むすべてのユーザーは、この日付より前とこの日付に含まれるアカウントを編集することはできません。会計年度のロックなどに使用します。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__4
+msgid "Normal Text"
+msgstr "通常テキスト"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Not archived"
+msgstr "アーカイブされない"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__note
+#, python-format
+msgid "Note"
+msgstr "備考"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Nothing to do!"
+msgstr "何もしない"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_needaction_counter
+msgid "Number of Actions"
+msgstr "アクション数"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__method_number
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__method_number
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__method_number
+msgid "Number of Depreciations"
+msgstr "減価償却回数"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__method_time__number
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_category__method_time__number
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "Number of Entries"
+msgstr "入力項目数"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__method_period
+msgid "Number of Months in a Period"
+msgstr "期間内の月数"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_has_error_counter
+msgid "Number of errors"
+msgstr "エラー数"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "アクションが必要なメッセージの数"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "配信エラーのあるメッセージの数"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_unread_counter
+msgid "Number of unread messages"
+msgstr "未読メッセージ数"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "One Entry Every"
+msgstr "1回ごとの入力"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_lock_date__period_lock_date
+msgid ""
+"Only users with the 'Adviser' role can edit accounts prior to and inclusive "
+"of this date. Use it for period locking inside an open fiscal year, for "
+"example."
+msgstr ""
+"Adviser」ロールを持つユーザーのみが、この日付より前とこの日付を含むアカウントを編集することができます。開いている会計年度内の期間ロックなどに使用します。"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/payment_model.js:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Open balance"
+msgstr "オープン残高"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_operating_income0
+msgid "Operating Income"
+msgstr "営業利益"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/payment_matching.py:0
+#, python-format
+msgid ""
+"Operation not allowed. Since your statement line already received a number "
+"(%s), you cannot reconcile it entirely with existing journal entries "
+"otherwise it would make a gap in the numbering. You should book an entry and"
+" make a regular revert of it in case you want to cancel it."
+msgstr ""
+"操作ができません。明細行にはすでに番号(%s)が付けられているので、既存の仕訳と完全に照合することはできません。そうしないと、番号の付け方にずれが生じます。キャンセルする場合に備えて、記帳して定期的に戻しておく必要があります。"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_operation0
+msgid "Operations"
+msgstr "事業内容"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_other_income0
+msgid "Other Income"
+msgstr "その他の収入"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_recurring_payments_form_view
+msgid "Other Info"
+msgstr "その他の情報"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_search_view
+msgid "Overdue Invoices"
+msgstr "延滞請求書"
+
+#. module: base_accounting_kit
+#: model:account.payment.method,name:base_accounting_kit.account_payment_method_pdc_in
+#: model:account.payment.method,name:base_accounting_kit.account_payment_method_pdc_out
+msgid "PDC"
+msgstr "PDC"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.striped
+msgid ""
+"Page:\n"
+"                    <span class=\"page\"/>\n"
+"                    of\n"
+"                    <span class=\"topage\"/>"
+msgstr ""
+"ページ\n"
+"：<\n"
+"span class=\"topage\"/>の\n"
+"<span class=\"page\"/> 。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.boxed
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.standard
+msgid "Page: <span class=\"page\"/> / <span class=\"topage\"/>"
+msgstr "ページ：<span class=\"page\"/> / <span class=\"topage\"/> 。"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#, python-format
+msgid "Paid"
+msgstr "支払済み"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "Paid on"
+msgstr "支払い済み"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__parent_id
+msgid "Parent"
+msgstr "親"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_financial_report_search
+msgid "Parent Report"
+msgstr "親リポート"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__partner_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__partner_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__partner_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#, python-format
+msgid "Partner"
+msgstr "パートナー"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_partner_leadger
+#: model:ir.actions.report,name:base_accounting_kit.action_report_partnerledger
+#: model:ir.ui.menu,name:base_accounting_kit.menu_partner_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+msgid "Partner Ledger"
+msgstr "パートナー台帳"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_partnerledger
+msgid "Partner Ledger Report"
+msgstr "パートナー台帳レポート"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.account_reports_partner
+msgid "Partner Reports"
+msgstr "パートナーレポート"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__result_selection
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__result_selection
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__result_selection
+msgid "Partner's"
+msgstr "パートナーの"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "Partners"
+msgstr "パートナー"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__pay_time__pay_now
+msgid "Pay Directly"
+msgstr "直接支払い"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__pay_time__pay_later
+msgid "Pay Later"
+msgstr "後払い"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__pay_time
+msgid "Pay Time"
+msgstr "支払い時期"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Pay your"
+msgstr "支払い"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_aged_trial_balance__result_selection__supplier
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_common_partner_report__result_selection__supplier
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_partner_ledger__result_selection__supplier
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "Payable Accounts"
+msgstr "支払口座"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_followup_definition_form
+msgid "Payment Follow-ups"
+msgstr "支払いフォローアップ"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.matching_account_payment
+msgid "Payment Matching"
+msgstr "支払いマッチング"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_payment_method
+msgid "Payment Methods"
+msgstr "支払い方法"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_payment
+msgid "Payments"
+msgstr "支払い方法"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.payment_matching_view
+msgid "Payments Matching"
+msgstr "支払いマッチング"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_payment.py:0
+#, python-format
+msgid ""
+"Payments to print as a checks must have 'Check' or 'PDC' selected as payment"
+" method and not have already been reconciled"
+msgstr "小切手として印刷する支払いは、支払い方法として「小切手」または「PDC」が選択されており、すでに照合されていないものでなければなりません。"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_payment.py:0
+#, python-format
+msgid "Payments without a customer can't be matched"
+msgstr "顧客のいない支払いは照合できない"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__method_period
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__method_period
+msgid "Period Length"
+msgstr "期間の長さ"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__period_length
+msgid "Period Length (days)"
+msgstr "期間の長さ（日数）"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "Periodicity"
+msgstr "周期性"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "Please use the following communication for your payment :"
+msgstr "お支払いの際は、以下の通信をご利用ください。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid ""
+"Please use the following communication for your payment : <b><span>\n"
+"                           INV/2020/07/0003</span></b>"
+msgstr ""
+"お支払いには以下の通信手段をご利用ください : <b><span> \n"
+"INV/2020/07/0003</span></b>."
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_asset_depreciation_confirmation_wizard
+msgid "Post Depreciation Lines"
+msgstr "減価償却後ライン"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_asset.js:0
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__move_posted_check
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__move_check
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__journal_state__posted
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+#, python-format
+msgid "Posted"
+msgstr "投稿"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__posted_value
+msgid "Posted Amount"
+msgstr "投稿金額"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Posted depreciation lines"
+msgstr "減価償却費の計上科目"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__sign__1
+msgid "Preserve balance sign"
+msgstr "バランス記号の保存"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Presets config"
+msgstr "プリセット設定"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__preview
+msgid "Preview"
+msgstr "プレビュー"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_aged_balance_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_bank_book_form_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_cash_book_form_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_day_book_form_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.financial_report_wiz_modified
+msgid "Print"
+msgstr "印刷"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_payment.py:0
+#, python-format
+msgid "Print Pre-numbered Checks"
+msgstr "番号付き小切手の印刷"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_print_journal__amount_currency
+msgid ""
+"Print Report with the currency column if the currency differs from the "
+"company currency."
+msgstr "通貨が社内通貨と異なる場合、通貨欄も含めて印刷するレポート"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_product_template
+msgid "Product Template"
+msgstr "製品テンプレート"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_profitloss_toreport0
+msgid "Profit (Loss) to report"
+msgstr "報告する利益(損失)"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_profitandloss0
+#: model:ir.actions.act_window,name:base_accounting_kit.action_profit_and_loss_report
+#: model:ir.ui.menu,name:base_accounting_kit.account_financial_reports_profit_loss
+msgid "Profit and Loss"
+msgstr "利益と損失"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__prorata
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__prorata
+msgid "Prorata Temporis"
+msgstr "プロラータ・テンポリス"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid ""
+"Prorata temporis can be applied only for time method \"number of "
+"depreciations\"."
+msgstr "時間法「減価償却回数」のみ、Plorata temporisを適用することができます。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
+msgid "Purchase"
+msgstr "購入"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Purchase Month"
+msgstr "購入月"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_category__type__purchase
+msgid "Purchase: Asset"
+msgstr "購入する資産"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__name
+msgid "Reason"
+msgstr "理由"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_aged_trial_balance__result_selection__customer
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_common_partner_report__result_selection__customer
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_partner_ledger__result_selection__customer
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "Receivable Accounts"
+msgstr "売掛債権"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_aged_trial_balance__result_selection__customer_supplier
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_common_partner_report__result_selection__customer_supplier
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_partner_ledger__result_selection__customer_supplier
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "Receivable and Payable Accounts"
+msgstr "売掛金・買掛金"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "Recognition Account"
+msgstr "認識勘定"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "Recognition Income Account"
+msgstr "認識収入勘定"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.payment_matching_view
+#, python-format
+msgid "Reconcile"
+msgstr "リコンサイル"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__reconciled
+msgid "Reconciled Entries"
+msgstr "調整済みエントリ"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__recurring_interval
+msgid "Recurring Interval"
+msgstr "定期的な間隔"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__recurring_lines
+msgid "Recurring Lines"
+msgstr "定期的な行数"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__recurring_period
+msgid "Recurring Period"
+msgstr "定期的な期間"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_line__recurring_ref
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move__recurring_ref
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__recurring_ref
+msgid "Recurring Ref"
+msgstr "定期的な参照"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_recurring_payments_form_view
+msgid "Recurring Template"
+msgstr "定期的なテンプレート"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_recurring_payments_view
+#: model:ir.ui.menu,name:base_accounting_kit.account_recurring_payments_child1
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_recurring_payments_tree_view
+msgid "Recurring Templates"
+msgstr "定期的なテンプレート"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#, python-format
+msgid "Ref"
+msgstr "参考"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__code
+msgid "Reference"
+msgstr "参照"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_payment_register
+msgid "Register Payment"
+msgstr "支払い登録"
+
+#. module: base_accounting_kit
+#: model:followup.line,name:base_accounting_kit.followup_line_id
+msgid "Reminder"
+msgstr "リマインダー"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_financial_report_form
+msgid "Report"
+msgstr "報告書"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__name
+msgid "Report Name"
+msgstr "レポート名"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_aged_balance_view
+msgid "Report Options"
+msgstr "レポートオプション"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_financial_report_search
+msgid "Report Type"
+msgstr "レポートの種類"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__account_report_id
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__type__account_report
+msgid "Report Value"
+msgstr "レポート値"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+#, python-format
+msgid "Residual"
+msgstr "残量"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__value_residual
+msgid "Residual Value"
+msgstr "残価"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__sign__-1
+msgid "Reverse balance sign"
+msgstr "逆バランス記号"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__text_align__right
+msgid "Right"
+msgstr "右"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__state__open
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__state__running
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__asset_asset_report__state__open
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Running"
+msgstr "実行中"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "SMS配信エラー"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
+msgid "Sale"
+msgstr "セール"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_category__type__sale
+msgid "Sale: Revenue Recognition"
+msgstr "セール収益認識"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
+msgid "Sales"
+msgstr "売上高"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_sale_order
+msgid "Sales Order"
+msgstr "販売注文"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__salvage_value
+msgid "Salvage Value"
+msgstr "サルベージ・バリュー"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_multiple_invoice_layout
+msgid "Save"
+msgstr "保存"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Save and New"
+msgstr "保存と新規作成"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
+msgid "Search Asset Category"
+msgstr "資産カテゴリー検索"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_filter
+msgid "Search Follow-up"
+msgstr "フォローアップの検索"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/payment_render.js:0
+#, python-format
+msgid "Select Partner"
+msgstr "パートナー選択"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Select a partner or choose a counterpart"
+msgstr "取引先の選択、または相手先の選択"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Sell or Dispose"
+msgstr "売却・廃棄"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__sequence
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__sequence
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__sequence
+msgid "Sequence"
+msgstr "シーケンス"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice__sequence
+msgid "Sequence No"
+msgstr "シーケンスなし"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Set to Draft"
+msgstr "ドラフトに設定"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Settings"
+msgstr "設定方法"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__sign
+msgid "Sign on Reports"
+msgstr "サインオンレポート"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Skill Level: 50%"
+msgstr "スキルレベル：50"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Skip"
+msgstr "スキップ"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__6
+msgid "Smallest Text"
+msgstr "最小のテキスト"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/payment_render.js:0
+#, python-format
+msgid "Some fields are undefined"
+msgstr "一部のフィールドは未定義です"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__sortby
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__sortby
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__sortby
+msgid "Sort by"
+msgstr "並び順"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__date_from
+msgid "Start Date"
+msgstr "開始日"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__date
+msgid "Starting Date"
+msgstr "開始日"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__method_period
+msgid "State here the time between 2 depreciations, in months"
+msgstr "2回の減価償却の間の時間（月単位）を記載します。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__parent_state
+msgid "State of Asset"
+msgstr "資産の状態"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__state
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__state
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__state
+msgid "Status"
+msgstr "状態"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Supplier Invoice"
+msgstr "サプライヤーインボイス"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "TOP 10 CUSTOMERS"
+msgstr "上位10社"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__target_move
+msgid "Target Moves"
+msgstr "目標移動量"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
+msgid "Tax"
+msgstr "税額"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+msgid "Tax Amount"
+msgstr "税額"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+msgid "Tax Declaration"
+msgstr "納税申告書"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "Tax ID"
+msgstr "タックスID"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Tax Included in Price"
+msgstr "税込み価格"
+
+#. module: base_accounting_kit
+#: model:ir.actions.report,name:base_accounting_kit.action_report_account_tax
+#: model:ir.model,name:base_accounting_kit.model_kit_account_tax_report
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_tax
+#: model:ir.ui.menu,name:base_accounting_kit.menu_tax_report
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
+msgid "Tax Report"
+msgstr "タックスレポート"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_tax_report
+msgid "Tax Reports"
+msgstr "タックスレポート"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Taxes"
+msgstr "税金について"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_bank_statement_line__move_name
+msgid ""
+"Technical field holding the number given to the journal entry, automatically"
+" set when the statement line is reconciled then stored to set the same "
+"number again if the line is cancelled, set to draft and re-processed again."
+msgstr ""
+"仕訳項目に与えられた番号を保持する技術的なフィールドで、明細行が照合されたときに自動的に設定され、行がキャンセルされ、下書きに設定されて再度処理されたときに同じ番号が設定されるように保存されます。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.bold
+msgid "Tel:"
+msgstr "Tel:"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__multiple_invoice_type__text
+msgid "Text"
+msgstr "テキスト"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_journal__text_align
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__text_align
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_multiple_invoice_layout
+msgid "Text Align"
+msgstr "テキストアライン"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_journal__text_position
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__text_position
+msgid "Text Position"
+msgstr "テキスト位置"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "That's on average"
+msgstr "それは平均的に"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/payment_model.js:0
+#, python-format
+msgid "The amount %s is not a valid partial amount"
+msgstr "金額 %s は有効な部分金額ではありません。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__method_period
+msgid "The amount of time between two depreciations, in months"
+msgstr "2回の減価償却を行うまでの期間（月単位"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_res_company__account_bank_reconciliation_start
+msgid ""
+"The bank reconciliation widget won't ask to reconcile payments older than this date.\n"
+"                                                                                                           This is useful if you install accounting after having used invoicing for some time and\n"
+"                                                                                                           don't want to reconcile all the past payments with bank statements."
+msgstr ""
+"銀行照合ウィジェットは、この日付より古い支払いの照合を要求しません。 これは、\n"
+"請求書をしばらく使用した後に会計をインストールし、\n"
+"過去のすべての支払いを銀行明細と照合したくない\n"
+"場合に便利です。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_followup_line__delay
+msgid ""
+"The number of days after the due date of the invoice to wait before sending "
+"the reminder.  Could be negative if you want to send a polite alert "
+"beforehand."
+msgstr "請求書の支払期日から何日後にリマインダーを送信するかを指定します。  事前に丁寧なアラートを送りたい場合は、マイナスにすることも可能です。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__method_number
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__method_number
+msgid "The number of depreciations needed to depreciate your asset"
+msgstr "資産の減価償却に必要な償却回数。"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_move.py:0
+#, python-format
+msgid ""
+"The number of depreciations or the period length of your asset category "
+"cannot be null."
+msgstr "資産区分の減価償却回数または期間長をNULLにすることはできません。"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "There is nothing to reconcile."
+msgstr "照合するものがない。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_move_form_inherited
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.header_view
+msgid "This Customer's due amount is"
+msgstr "この顧客の支払期限額は"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "This Month"
+msgstr "今月"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "This Year"
+msgstr "今年度"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_move_form_inherited
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.header_view
+msgid "This customer's <strong>warning limit</strong> has been crossed."
+msgstr "このお客様の<strong>警告の上限</strong>を超えました。"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid ""
+"This depreciation is already linked to a journal entry! Please post or "
+"delete it."
+msgstr "この減価償却費はすでに仕訳にリンクされています!転記または削除してください。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_cash_flow_report__label_filter
+msgid ""
+"This label will be displayed on report to show the balance computed for the "
+"given comparison filter."
+msgstr "このラベルは、与えられた比較フィルタに対して計算された残高を表示するために、レポートに表示されます。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_cash_flow_report__debit_credit
+#: model:ir.model.fields,help:base_accounting_kit.field_financial_report__debit_credit
+msgid ""
+"This option allows you to get more details about the way your balances are "
+"computed. Because it is space consuming, we do not allow to use it while "
+"doing a comparison."
+msgstr ""
+"このオプションを使用すると、残高の計算方法についてより詳細な情報を得ることができます。スペースを消費するため、比較を行いながら使用することはできません。"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid ""
+"This page displays all the bank transactions that are to be reconciled and "
+"provides with a neat interface to do so."
+msgstr "このページでは、照合対象となるすべての銀行取引を表示し、照合するためのすてきなインターフェイスを提供します。"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "This payment is registered but not reconciled."
+msgstr "この支払いは登録されていますが、照合はされていません。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_depreciation_confirmation_wizard
+msgid ""
+"This wizard will post installment/depreciation lines for the selected month.<br/>\n"
+"                        This will generate journal entries for all related installment lines on this period of asset/revenue recognition as well."
+msgstr ""
+"このウィザードは、選択した月の分割払い/減価償却費を計上します。< br/> これは、\n"
+"資産/収益認識のこの期間に関連するすべての分割払い行に対する仕訳も同様に生成します。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__method_time
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__method_time
+msgid "Time Method"
+msgstr "時間法"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "Time Method Based On"
+msgstr "時間法 Based On"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__2
+msgid "Title 2 (bold)"
+msgstr "タイトル2(太字)"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__3
+msgid "Title 3 (bold, smaller)"
+msgstr "タイトル3（太字、細字）"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "To Check"
+msgstr "確認する"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_form
+msgid ""
+"To remind customers of paying their invoices, you can\n"
+"                        define different actions depending on how severely\n"
+"                        overdue the customer is. These actions are bundled\n"
+"                        into follow-up levels that are triggered when the due\n"
+"                        date of an invoice has passed a certain\n"
+"                        number of days. If there are other overdue invoices for the\n"
+"                        same customer, the actions of the most\n"
+"                        overdue invoice will be executed."
+msgstr ""
+"お客様に請求書の支払いを促すために、\n"
+"お客様の延滞の度合いに応じて\n"
+"異なるアクションを定義することができます。\n"
+"これらのアクションは、請求書の支払期日が\n"
+"一定の\n"
+"日数を経過した\n"
+"ときにトリガーされるフォローアップ\n"
+"レベルにまとめられています。同じ顧客\n"
+"で他に延滞している請求書がある場合、最も\n"
+"延滞している請求書の\n"
+"アクションが\n"
+"実行されます。"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "To speed up reconciliation, define"
+msgstr "リコンサイルを迅速に行うために、以下を定義します。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__body_text_position__tl
+msgid "Top Left"
+msgstr "左上"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__body_text_position__tr
+msgid "Top Right"
+msgstr "右上"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_tree_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "Total"
+msgstr "合計"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__total_due
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__total_due
+msgid "Total Due"
+msgstr "支払期限"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Total Expenses"
+msgstr "費用合計"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Total Income"
+msgstr "収入合計"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__total_overdue
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__total_overdue
+msgid "Total Overdue"
+msgstr "延滞の合計"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_line__due_amount
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move__due_amount
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__due_amount
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__due_amount
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__due_amount
+#: model:ir.model.fields,field_description:base_accounting_kit.field_sale_order__due_amount
+msgid "Total Sale"
+msgstr "売上高"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Transaction"
+msgstr "取引内容"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_balance_menu
+#: model:ir.actions.report,name:base_accounting_kit.action_report_trial_balance
+#: model:ir.ui.menu,name:base_accounting_kit.menu_Balance_report
+msgid "Trial Balance"
+msgstr "残高試算表"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_balance_report
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_trial_balance
+msgid "Trial Balance Report"
+msgstr "残高試算表"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__type
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__type
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__type
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
+msgid "Type"
+msgstr "種類"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/report/report_aged_partner.py:0
+#, python-format
+msgid "Unknown Partner"
+msgstr "不明な相手"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_asset.js:0
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__journal_state__draft
+#, python-format
+msgid "Unposted"
+msgstr "未掲載"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__unposted_value
+msgid "Unposted Amount"
+msgstr "未掲載金額"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_unread
+msgid "Unread Messages"
+msgstr "未読メッセージ"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "未読メッセージカウンター"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#, python-format
+msgid "Unreconciled"
+msgstr "未合意"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Unreconciled items"
+msgstr "未解決の項目"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_update_lock_date_form_view
+msgid "Update"
+msgstr "更新"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Validate"
+msgstr "バリデート"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_purchase_tree
+msgid "Vendor"
+msgstr "ベンダ"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "Vendor Bill"
+msgstr "ベンダービル"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "Vendor Credit Note"
+msgstr "ベンダークレジットノート"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Verify"
+msgstr "検証"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__financial_report__view_format__vertical
+msgid "Vertical"
+msgstr "縦型"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__type__sum
+msgid "View"
+msgstr "表示"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__warning_stage
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__warning_stage
+msgid "Warning Amount"
+msgstr "警告金額"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/credit_limit.py:0
+#, python-format
+msgid "Warning amount should be less than Blocking amount"
+msgstr "警告量はブロック量より少なくする必要があります。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__multiple_invoice_type__watermark
+msgid "Watermark"
+msgstr "ウォーターマーク"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__website_message_ids
+msgid "Website Messages"
+msgstr "ウェブサイトメッセージ"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__website_message_ids
+msgid "Website communication history"
+msgstr "ウェブサイトでのコミュニケーション履歴"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__recurring_period__weeks
+msgid "Weeks"
+msgstr "週数"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__state
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_depreciation_line__parent_state
+msgid ""
+"When an asset is created, the status is 'Draft'.\n"
+"If the asset is confirmed, the status goes in 'Running' and the depreciation lines can be posted in the accounting.\n"
+"You can manually close an asset when the depreciation is over. If the last line of depreciation is posted, the asset automatically goes in that status."
+msgstr ""
+"資産を作成すると、ステータスは「下書き」になります。\n"
+"資産が確定すると、ステータスが「実行中」になり、会計に減価償却費を計上することができるようになります。\n"
+"減価償却が終了したら、手動で資産を閉じることができます。減価償却の最後の行が計上されると、資産は自動的にそのステータスになります。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__amount_currency
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__amount_currency
+msgid "With Currency"
+msgstr "通貨を含む"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_balance_report__display_account__not_zero
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_bank_book_report__display_account__not_zero
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_cash_book_report__display_account__not_zero
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_common_account_report__display_account__not_zero
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_general_ledger__display_account__not_zero
+msgid "With balance is not equal to 0"
+msgstr "残高が0でない場合"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "With balance not equal to zero"
+msgstr "残高が0でない場合"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_balance_report__display_account__movement
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_bank_book_report__display_account__movement
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_cash_book_report__display_account__movement
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_common_account_report__display_account__movement
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_general_ledger__display_account__movement
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "With movements"
+msgstr "動きあり"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__res_partner__followup_status__with_overdue_invoices
+msgid "With overdue invoices"
+msgstr "期限切れの請求書がある場合"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_form_view
+msgid ""
+"Wonder how to Send Followup mails and Print Followup Reports ? Download our"
+msgstr "フォローアップメールの送り方、フォローアップレポートの印刷方法は？ダウンロード"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/payment_matching.py:0
+#: code:addons/base_accounting_kit/models/payment_matching.py:0
+#, python-format
+msgid "Write-Off"
+msgstr "消却"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Writeoff Date"
+msgstr "償却日"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__name
+msgid "Year"
+msgstr "年"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__recurring_period__years
+msgid "Years"
+msgstr "年"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/wizard/account_lock_date.py:0
+#, python-format
+msgid "You are not allowed to execute this action."
+msgstr "このアクションを実行することは許可されていません。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_financial_report__style_overwrite
+msgid ""
+"You can set up here the format you want this record to be displayed. If you "
+"leave the automatic formatting, it will be computed based on the financial "
+"reports hierarchy (auto-computed field 'level')."
+msgstr ""
+"このレコードを表示する形式をここで設定することができます。自動書式設定のままだと、財務報告書の階層（自動計算フィールド「レベル」）に基づいて計算されます。"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid "You cannot delete a document is in %s state."
+msgstr "ドキュメントが %s の状態であるため、削除できません。"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid "You cannot delete a document that contains posted entries."
+msgstr "転記された項目を含む文書を削除することはできません。"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid "You cannot delete posted depreciation lines."
+msgstr "計上された減価償却費の行を削除することはできません。"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid "You cannot delete posted installment lines."
+msgstr "割賦計上行は削除できません。"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/wizard/account_bank_book_wizard.py:0
+#: code:addons/base_accounting_kit/wizard/account_cash_book_wizard.py:0
+#, python-format
+msgid "You must choose a Start Date"
+msgstr "開始日を選択する必要があります。"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/wizard/general_ledger.py:0
+#, python-format
+msgid "You must define a Start Date"
+msgstr "開始日を設定する必要があります"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/wizard/aged_partner.py:0
+#, python-format
+msgid "You must set a period length greater than 0."
+msgstr "期間の長さを0より大きく設定する必要があります。"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/wizard/aged_partner.py:0
+#, python-format
+msgid "You must set a start date."
+msgstr "開始日を設定する必要があります。"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "You reconciled"
+msgstr "あなたは"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "and follow-up customers"
+msgstr "とフォローアップ顧客"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_asset_depreciation_confirmation_wizard
+msgid "asset.depreciation.confirmation.wizard"
+msgstr "資産・減価償却・確認・ウィザード"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_line_form
+msgid "days overdue, do the following actions:"
+msgstr "日超過している場合は、以下の操作を行ってください。"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "e.g. Computers"
+msgstr "例：パソコン"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "e.g. Laptop iBook"
+msgstr "例：ノートパソコン iBook"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_form_view
+msgid "has no due amount."
+msgstr "は支払期限がありません。"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "have been reconciled automatically."
+msgstr "は自動的に照合されました。"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__tmpl_id
+msgid "id"
+msgstr "ID"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.asset_modify_form
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "months"
+msgstr "月"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_multiple_invoice
+msgid "multiple.invoice"
+msgstr "マルチプルインボイス"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "on"
+msgstr "オン"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "reconcile"
+msgstr "リコンサイル"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "reconciliation models"
+msgstr "リコンサイルモデル"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "remaining)"
+msgstr "残り)"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_form_view
+msgid "report"
+msgstr "報告書"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_multiple_invoice
+msgid "report.base_accounting_kit.report_multiple_invoice"
+msgstr "report.base_accounting_kit.report_multiple_invoice"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "seconds per transaction."
+msgstr "1トランザクションあたりの秒数"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "statement lines"
+msgstr "明細行数"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "transactions in"
+msgstr "のトランザクション"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "unpaid invoices"
+msgstr "未払い請求書"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "unreconciled entries"
+msgstr "未照合項目"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "vendor bills"
+msgstr "業者請求書"

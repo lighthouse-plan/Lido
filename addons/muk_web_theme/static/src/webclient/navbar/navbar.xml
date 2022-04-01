@@ -56,6 +56,7 @@
 						<span class="mk_app_name" t-attf-style="mix-blend-mode: {{ backgroundBlendMode }};">
 							<t t-esc="app.name"/>
 						</span>
+						
 					</a>
 				</MenuItem>
 			</AppsMenu>
