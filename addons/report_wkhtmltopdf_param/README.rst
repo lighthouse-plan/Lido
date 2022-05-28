@@ -19,7 +19,7 @@ Report Wkhtmltopdf Param
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
     :target: https://translation.odoo-community.org/projects/reporting-engine-15-0/reporting-engine-15-0-report_wkhtmltopdf_param
     :alt: Translate me on Weblate
-.. |badge5| image:: https://img.shields.io/badge/runbot-Try%20me-875A7B.png
+.. |badge5| image:: https://img.shields.io/badge/runbot-Try%20me-133157.png
     :target: https://runbot.odoo-community.org/runbot/143/15.0
     :alt: Try me on Runbot
 

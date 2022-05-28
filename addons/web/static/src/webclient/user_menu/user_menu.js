@@ -40,7 +40,20 @@ export class UserMenu extends Component {
                 const ySeq = y.sequence ? y.sequence : 100;
                 return xSeq - ySeq;
             });
-        return sortedItems;
+        var newItems = [];
+        const items = sortedItems.map((item) => {
+            if (item.type === 'separator') {
+                //skip
+            } else if (item.type === 'item') {
+                // console.log(item.id);
+                if (item.id === "account" || item.id === "documentation" || item.id === "support") {
+
+                } else {
+                    newItems.push(item);
+                }
+            }
+        });
+        return newItems;
     }
 
     onDropdownItemSelected(ev) {

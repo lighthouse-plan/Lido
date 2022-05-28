@@ -45,7 +45,8 @@ class CrmTeam(models.Model):
             user = self.env.user
         else:
             user = self.env['res.users'].sudo().browse(user_id)
-        valid_cids = [False] + [c for c in user.company_ids.ids if c in self.env.companies.ids]
+        valid_cids = [
+            False] + [c for c in user.company_ids.ids if c in self.env.companies.ids]
 
         # 1- find in user memberships - note that if current user in C1 searches
         # for team belonging to a user in C1/C2 -> only results for C1 will be returned
@@ -62,11 +63,13 @@ class CrmTeam(models.Model):
 
         # 3- default: context
         if not team and 'default_team_id' in self.env.context:
-            team = self.env['crm.team'].browse(self.env.context.get('default_team_id'))
+            team = self.env['crm.team'].browse(
+                self.env.context.get('default_team_id'))
 
         # 4- default: first one matching domain, then first one
         if not team:
-            teams = self.env['crm.team'].search([('company_id', 'in', valid_cids)])
+            teams = self.env['crm.team'].search(
+                [('company_id', 'in', valid_cids)])
             if teams and domain:
                 team = teams.filtered_domain(domain)[:1]
             if not team:
@@ -80,14 +83,16 @@ class CrmTeam(models.Model):
     # description
     name = fields.Char('Sales Team', required=True, translate=True)
     sequence = fields.Integer('Sequence', default=10)
-    active = fields.Boolean(default=True, help="If the active field is set to false, it will allow you to hide the Sales Team without removing it.")
+    active = fields.Boolean(
+        default=True, help="If the active field is set to false, it will allow you to hide the Sales Team without removing it.")
     company_id = fields.Many2one(
         'res.company', string='Company', index=True,
         default=lambda self: self.env.company)
     currency_id = fields.Many2one(
         "res.currency", string="Currency",
         related='company_id.currency_id', readonly=True)
-    user_id = fields.Many2one('res.users', string='Team Leader', check_company=True)
+    user_id = fields.Many2one(
+        'res.users', string='Team Leader', check_company=True)
     # memberships
     is_membership_multi = fields.Boolean(
         'Multiple Memberships Allowed', compute='_compute_is_membership_multi',
@@ -100,7 +105,8 @@ class CrmTeam(models.Model):
     member_company_ids = fields.Many2many(
         'res.company', compute='_compute_member_company_ids',
         help='UX: Limit to team company or all if no company')
-    member_warning = fields.Text('Membership Issue Warning', compute='_compute_member_warning')
+    member_warning = fields.Text(
+        'Membership Issue Warning', compute='_compute_member_warning')
     crm_team_member_ids = fields.One2many(
         'crm.team.member', 'crm_team_id', string='Sales Team Members',
         help="Add members to automatically assign their documents to this sales team.")
@@ -108,19 +114,22 @@ class CrmTeam(models.Model):
         'crm.team.member', 'crm_team_id', string='Sales Team Members (incl. inactive)',
         context={'active_test': False})
     # UX options
-    color = fields.Integer(string='Color Index', help="The color of the channel")
+    color = fields.Integer(string='Color Index',
+                           help="The color of the channel")
     favorite_user_ids = fields.Many2many(
         'res.users', 'team_favorite_user_rel', 'team_id', 'user_id',
         string='Favorite Members', default=_get_default_favorite_user_ids)
     is_favorite = fields.Boolean(
         string='Show on dashboard', compute='_compute_is_favorite', inverse='_inverse_is_favorite',
         help="Favorite teams to display them in the dashboard and access them easily.")
-    dashboard_button_name = fields.Char(string="Dashboard Button", compute='_compute_dashboard_button_name')
+    dashboard_button_name = fields.Char(
+        string="Dashboard Button", compute='_compute_dashboard_button_name')
     dashboard_graph_data = fields.Text(compute='_compute_dashboard_graph')
 
     @api.depends('sequence')  # TDE FIXME: force compute in new mode
     def _compute_is_membership_multi(self):
-        multi_enabled = self.env['ir.config_parameter'].sudo().get_param('sales_team.membership_multi', False)
+        multi_enabled = self.env['ir.config_parameter'].sudo(
+        ).get_param('sales_team.membership_multi', False)
         self.is_membership_multi = multi_enabled
 
     @api.depends('crm_team_member_ids.active')
@@ -137,7 +146,8 @@ class CrmTeam(models.Model):
             users_new = users_current - memberships.user_id
 
             # add missing memberships
-            self.env['crm.team.member'].create([{'crm_team_id': team.id, 'user_id': user.id} for user in users_new])
+            self.env['crm.team.member'].create(
+                [{'crm_team_id': team.id, 'user_id': user.id} for user in users_new])
 
             # activate or deactivate other memberships depending on members
             for membership in memberships:
@@ -163,14 +173,17 @@ class CrmTeam(models.Model):
                 member_warning = _("Adding %(user_name)s in this team would remove him/her from its current team %(team_name)s.",
                                    user_name=other_memberships.user_id.name,
                                    team_name=other_memberships.crm_team_id.name
-                                  )
+                                   )
             elif other_memberships:
                 member_warning = _("Adding %(user_names)s in this team would remove them from their current teams (%(team_names)s).",
-                                   user_names=", ".join(other_memberships.mapped('user_id.name')),
-                                   team_names=", ".join(other_memberships.mapped('crm_team_id.name'))
-                                  )
+                                   user_names=", ".join(
+                                       other_memberships.mapped('user_id.name')),
+                                   team_names=", ".join(
+                                       other_memberships.mapped('crm_team_id.name'))
+                                   )
             if member_warning:
-                team.member_warning = member_warning + " " + _("To add a Salesperson into multiple Teams, activate the Multi-Team option in settings.")
+                team.member_warning = member_warning + " " + \
+                    _("To add a Salesperson into multiple Teams, activate the Multi-Team option in settings.")
 
     def _search_member_ids(self, operator, value):
         return [('crm_team_member_ids.user_id', operator, value)]
@@ -189,20 +202,24 @@ class CrmTeam(models.Model):
 
     def _inverse_is_favorite(self):
         sudoed_self = self.sudo()
-        to_fav = sudoed_self.filtered(lambda team: self.env.user not in team.favorite_user_ids)
+        to_fav = sudoed_self.filtered(
+            lambda team: self.env.user not in team.favorite_user_ids)
         to_fav.write({'favorite_user_ids': [(4, self.env.uid)]})
-        (sudoed_self - to_fav).write({'favorite_user_ids': [(3, self.env.uid)]})
+        (sudoed_self -
+         to_fav).write({'favorite_user_ids': [(3, self.env.uid)]})
         return True
 
     def _compute_dashboard_button_name(self):
         """ Sets the adequate dashboard button name depending on the Sales Team's options
         """
         for team in self:
-            team.dashboard_button_name = _("Big Pretty Button :)") # placeholder
+            team.dashboard_button_name = _(
+                "Big Pretty Button :)")  # placeholder
 
     def _compute_dashboard_graph(self):
         for team in self:
-            team.dashboard_graph_data = json.dumps(team._get_dashboard_graph_data())
+            team.dashboard_graph_data = json.dumps(
+                team._get_dashboard_graph_data())
 
     # ------------------------------------------------------------
     # CRUD
@@ -210,7 +227,8 @@ class CrmTeam(models.Model):
 
     @api.model_create_multi
     def create(self, vals_list):
-        teams = super(CrmTeam, self.with_context(mail_create_nosubscribe=True)).create(vals_list)
+        teams = super(CrmTeam, self.with_context(
+            mail_create_nosubscribe=True)).create(vals_list)
         teams.filtered(lambda t: t.member_ids)._add_members_to_favorites()
         return teams
 
@@ -233,7 +251,8 @@ class CrmTeam(models.Model):
         ]
         for team in self:
             if team in default_teams:
-                raise UserError(_('Cannot delete default team "%s"', team.name))
+                raise UserError(
+                    _('Cannot delete default team "%s"', team.name))
 
     # ------------------------------------------------------------
     # ACTIONS
@@ -250,7 +269,8 @@ class CrmTeam(models.Model):
 
     def _add_members_to_favorites(self):
         for team in self:
-            team.favorite_user_ids = [(4, member.id) for member in team.member_ids]
+            team.favorite_user_ids = [(4, member.id)
+                                      for member in team.member_ids]
 
     # ------------------------------------------------------------
     # GRAPH
@@ -259,7 +279,8 @@ class CrmTeam(models.Model):
     def _graph_get_model(self):
         """ skeleton function defined here because it'll be called by crm and/or sale
         """
-        raise UserError(_('Undefined graph model for Sales Team: %s', self.name))
+        raise UserError(
+            _('Undefined graph model for Sales Team: %s', self.name))
 
     def _graph_get_dates(self, today):
         """ return a coherent start and end date for the dashboard graph covering a month period grouped by week.
@@ -277,7 +298,8 @@ class CrmTeam(models.Model):
         return 'EXTRACT(WEEK FROM %s)' % self._graph_date_column()
 
     def _graph_y_query(self):
-        raise UserError(_('Undefined graph model for Sales Team: %s', self.name))
+        raise UserError(
+            _('Undefined graph model for Sales Team: %s', self.name))
 
     def _extra_sql_conditions(self):
         return ''
@@ -324,7 +346,8 @@ class CrmTeam(models.Model):
             'extra_conditions': extra_conditions
         }
 
-        self._cr.execute(query, [self.id, start_date, end_date] + where_clause_params)
+        self._cr.execute(query, [self.id, start_date,
+                                 end_date] + where_clause_params)
         return self.env.cr.dictfetchall()
 
     def _get_dashboard_graph_data(self):
@@ -337,8 +360,10 @@ class CrmTeam(models.Model):
             if (start_date + relativedelta(days=6)).month == start_date.month:
                 short_name_from = format_date(start_date, 'd', locale=locale)
             else:
-                short_name_from = format_date(start_date, 'd MMM', locale=locale)
-            short_name_to = format_date(start_date + relativedelta(days=6), 'd MMM', locale=locale)
+                short_name_from = format_date(
+                    start_date, 'd MMM', locale=locale)
+            short_name_to = format_date(
+                start_date + relativedelta(days=6), 'd MMM', locale=locale)
             return short_name_from + '-' + short_name_to
 
         self.ensure_one()
@@ -352,18 +377,24 @@ class CrmTeam(models.Model):
         # generate all required x_fields and update the y_values where we have data for them
         locale = self._context.get('lang') or 'en_US'
 
-        weeks_in_start_year = int(date(start_date.year, 12, 28).isocalendar()[1]) # This date is always in the last week of ISO years
-        week_count = (end_date.isocalendar()[1] - start_date.isocalendar()[1]) % weeks_in_start_year + 1
+        # This date is always in the last week of ISO years
+        weeks_in_start_year = int(
+            date(start_date.year, 12, 28).isocalendar()[1])
+        week_count = (end_date.isocalendar()[
+                      1] - start_date.isocalendar()[1]) % weeks_in_start_year + 1
         for week in range(week_count):
-            short_name = get_week_name(start_date + relativedelta(days=7 * week), locale)
-            values.append({x_field: short_name, y_field: 0, 'type': 'future' if week + 1 == week_count else 'past'})
+            short_name = get_week_name(
+                start_date + relativedelta(days=7 * week), locale)
+            values.append({x_field: short_name, y_field: 0,
+                           'type': 'future' if week + 1 == week_count else 'past'})
 
         for data_item in graph_data:
-            index = int((data_item.get('x_value') - start_date.isocalendar()[1]) % weeks_in_start_year)
+            index = int((data_item.get('x_value') -
+                         start_date.isocalendar()[1]) % weeks_in_start_year)
             values[index][y_field] = data_item.get('y_value')
 
         [graph_title, graph_key] = self._graph_title_and_key()
-        color = '#875A7B' if '+e' in version else '#7c7bad'
+        color = '#133157' if '+e' in version else '#7c7bad'
 
         # If no actual data available, show some sample data
         if not graph_data:

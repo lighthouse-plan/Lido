@@ -718,7 +718,7 @@ ication">
                       <tr>
                         <td align=3D"center" style=3D"min-width: 590px;">
                           <table width=3D"590" border=3D"0" cellpadding=3D=
-"0" bgcolor=3D"#875A7B" style=3D"min-width: 590px; background-color: rgb(13=
+"0" bgcolor=3D"#133157" style=3D"min-width: 590px; background-color: rgb(13=
 5,90,123); padding: 20px;">
                             <tbody><tr>
                               <td valign=3D"middle">
@@ -770,7 +770,7 @@ cida Grande&quot;, Helvetica, Verdana, Arial, sans-serif">Thank you,</p>
                       <tr>
                         <td align=3D"center" style=3D"min-width: 590px;">
                           <table width=3D"590" border=3D"0" cellpadding=3D=
-"0" bgcolor=3D"#875A7B" style=3D"min-width: 590px; background-color: rgb(13=
+"0" bgcolor=3D"#133157" style=3D"min-width: 590px; background-color: rgb(13=
 5,90,123); padding: 20px;">
                             <tbody><tr>
                               <td valign=3D"middle" align=3D"left" style=
@@ -792,12 +792,6 @@ aa.com" style=3D"text-decoration:none; color: white;">info@aust-mfg.com</a>=
                               </td>
                             </tr>
                           </tbody></table>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td align=3D"center">
-                            Powered by <a href=3D"https://www.odoo.com">Odo=
-o</a>.
                         </td>
                       </tr>
                     </tbody>

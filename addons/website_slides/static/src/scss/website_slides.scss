@@ -1,7 +1,8 @@
-$MAX-Z-INDEX : 2147483647 !default;
+$MAX-Z-INDEX: 2147483647 !default;
 
 // Retrive the tab's height by summ its properties
-$o-wslides-tabs-height: ($nav-link-padding-y*2) + ($font-size-base * $line-height-base);
+$o-wslides-tabs-height: ($nav-link-padding-y * 2) +
+    ($font-size-base * $line-height-base);
 
 // Overal page bg-color: Blend it 'over' the color chosen by the user
 // ($body-bg), rather than force it replacing the variable's value.
@@ -12,19 +13,18 @@ $o-wslides-color-dark2: #1f262d;
 $o-wslides-color-dark3: #101216;
 $o-wslides-fs-side-width: 300px;
 
-
 // Common to new slides pages
 // **************************************************
 .o_wslides_gradient {
-    background-image: linear-gradient(120deg, #875A7B, darken(#875A7B, 10%));
+    background-image: linear-gradient(120deg, #133157, darken(#133157, 10%));
 }
 
 .o_wslides_course_pict {
     @include size(100%);
     object-fit: cover;
 
-    @include media-breakpoint-up(md)  {
-        border: 1px solid darken(#875A7B, 10%);
+    @include media-breakpoint-up(md) {
+        border: 1px solid darken(#133157, 10%);
         border-bottom-width: 0;
     }
 }
@@ -36,10 +36,10 @@ $o-wslides-fs-side-width: 300px;
     margin-top: 10px;
     line-height: 1.8em;
     padding-left: 8px;
-    padding-right: 5px;  
-    background: #17A2B8;
+    padding-right: 5px;
+    background: #17a2b8;
     color: white;
-    box-shadow: 0px 0px 3px  gray;
+    box-shadow: 0px 0px 3px gray;
     z-index: 1;
 
     text-decoration: none;
@@ -50,9 +50,9 @@ $o-wslides-fs-side-width: 300px;
         position: absolute;
         height: 0px;
         width: 0px;
-        right: 0; 
+        right: 0;
         margin-right: -15px;
-        border-left: 15px solid #17A2B8;
+        border-left: 15px solid #17a2b8;
         border-bottom: 12px solid transparent;
         border-top: 12px solid transparent;
     }
@@ -124,7 +124,7 @@ $o-wslides-fs-side-width: 300px;
     }
 
     .o_wslides_js_lesson_quiz_question {
-        .list-group-item  {
+        .list-group-item {
             font-size: 1rem;
 
             input:checked + i.fa-circle {
@@ -137,7 +137,7 @@ $o-wslides-fs-side-width: 300px;
             pointer-events: none;
         }
 
-        &.completed-disabled{
+        &.completed-disabled {
             pointer-events: none;
         }
     }
@@ -150,11 +150,12 @@ $o-wslides-fs-side-width: 300px;
     }
 
     .o_wslides_js_quiz_sequence_highlight {
-        background-color: #1252F3;
+        background-color: #1252f3;
         height: 1px;
         z-index: 3;
 
-        &:before, &:after {
+        &:before,
+        &:after {
             content: "";
             @include size(6px);
             display: block;
@@ -257,7 +258,8 @@ $o-wslides-fs-side-width: 300px;
     .o_wslides_js_channel_enroll {
         cursor: pointer;
 
-        &:hover, &:hover .o_wslides_enroll_msg small {
+        &:hover,
+        &:hover .o_wslides_enroll_msg small {
             font-weight: bold;
         }
     }
@@ -306,10 +308,11 @@ $o-wslides-fs-side-width: 300px;
 }
 
 .o_wslides_course_nav {
-    @include o-position-absolute(0,0,auto,0);
+    @include o-position-absolute(0, 0, auto, 0);
     border-width: 1px 0;
 
-    &, .o_wslides_course_nav_search {
+    &,
+    .o_wslides_course_nav_search {
         background-color: rgba(white, 0.05);
         border-color: rgba(white, 0.1);
         border-style: solid;
@@ -319,18 +322,20 @@ $o-wslides-fs-side-width: 300px;
         border-width: 0 1px;
     }
 
-    .breadcrumb-item.active a, .breadcrumb-item a:hover {
+    .breadcrumb-item.active a,
+    .breadcrumb-item a:hover {
         color: white;
     }
 
-    .breadcrumb-item a, .breadcrumb-item + .breadcrumb-item::before, .o_wslides_course_nav_search input::placeholder {
+    .breadcrumb-item a,
+    .breadcrumb-item + .breadcrumb-item::before,
+    .o_wslides_course_nav_search input::placeholder {
         color: rgba(white, 0.8);
     }
 }
 
-
 .o_wslides_course_header {
-    @include media-breakpoint-up(md)  {
+    @include media-breakpoint-up(md) {
         @include o-wslides-header-bar();
     }
 }
@@ -341,7 +346,7 @@ $o-wslides-fs-side-width: 300px;
 
 .o_wslides_course_main {
     .o_wslides_nav_tabs {
-        @include media-breakpoint-up(md)  {
+        @include media-breakpoint-up(md) {
             @include o-wslides-tabs();
         }
 
@@ -363,7 +368,7 @@ $o-wslides-fs-side-width: 300px;
     .o_wslides_tabs_content {
         @include media-breakpoint-down(sm) {
             background-color: $nav-tabs-link-active-bg;
-            padding:0 ($grid-gutter-width * 0.5);
+            padding: 0 ($grid-gutter-width * 0.5);
         }
 
         @include media-breakpoint-only(xs) {
@@ -388,10 +393,10 @@ $o-wslides-fs-side-width: 300px;
         }
 
         .o_text_link {
-            text-decoration: none!important;
+            text-decoration: none !important;
 
             > * {
-                text-decoration: none!important;
+                text-decoration: none !important;
                 color: map-get($grays, "600");
             }
 
@@ -403,16 +408,20 @@ $o-wslides-fs-side-width: 300px;
         .o_wslides_slides_list_drag {
             cursor: pointer;
 
-            i { opacity: 0.4; }
-            &:hover i { opacity: 1; }
+            i {
+                opacity: 0.4;
+            }
+            &:hover i {
+                opacity: 1;
+            }
         }
 
-        .o_wslides_slide_list_category_header, .o_wslides_slides_list_slide {
+        .o_wslides_slide_list_category_header,
+        .o_wslides_slides_list_slide {
             border: 1px solid $border-color;
         }
 
         .o_wslides_slides_list_slide {
-
             a {
                 text-decoration: none;
             }
@@ -427,11 +436,12 @@ $o-wslides-fs-side-width: 300px;
         }
 
         .o_wslides_slides_list_slide_hilight {
-            background-color: #1252F3;
+            background-color: #1252f3;
             height: 1px;
             z-index: 3;
 
-            &:before, &:after {
+            &:before,
+            &:after {
                 content: "";
                 @include size(6px);
                 display: block;
@@ -448,7 +458,6 @@ $o-wslides-fs-side-width: 300px;
     }
 }
 
-
 // New lesson page (not fullscreens)
 // **************************************************
 .o_wslides_lesson_main {
@@ -458,21 +467,21 @@ $o-wslides-fs-side-width: 300px;
         }
 
         .o_wslides_lesson_aside_list {
-            @include media-breakpoint-up (lg) {
+            @include media-breakpoint-up(lg) {
                 top: -58px;
             }
         }
 
         .o_wslides_lesson_aside_list {
             .o_wslides_lesson_aside_list_link {
-                @include o-hover-text-color($gray-600, $headings-color );
+                @include o-hover-text-color($gray-600, $headings-color);
 
                 .o_wslides_lesson_link_name {
                     line-height: 1.2;
                 }
 
                 &.active {
-                    box-shadow:inset 2px 0 theme-color('primary');
+                    box-shadow: inset 2px 0 theme-color("primary");
                 }
 
                 &:hover .o_wslides_lesson_link_name {
@@ -499,14 +508,13 @@ $o-wslides-fs-side-width: 300px;
     }
 }
 
-
 // Modals
 // **************************************************
 
 .o_wslides_quiz_modal {
-    @include media-breakpoint-up (sm) {
+    @include media-breakpoint-up(sm) {
         .modal-body {
-            overflow: visible!important;
+            overflow: visible !important;
 
             .o_wslides_quiz_modal_close_btn {
                 right: 5px;
@@ -529,8 +537,8 @@ $o-wslides-fs-side-width: 300px;
     }
 
     .progress {
-        border-radius:0;
-        overflow:visible;
+        border-radius: 0;
+        overflow: visible;
         height: 8px;
 
         .progress-bar {
@@ -543,16 +551,16 @@ $o-wslides-fs-side-width: 300px;
     }
 
     .tooltip > .tooltip-inner {
-        background-color: #875A7B;
-        padding:5px 15px;
-        font-weight:bold;
-        font-size:13px;
+        background-color: #133157;
+        padding: 5px 15px;
+        font-weight: bold;
+        font-size: 13px;
     }
 
     .tooltip > .arrow {
         border-left: 5px solid transparent;
         border-right: 5px solid transparent;
-        border-top: 5px solid #875A7B;
+        border-top: 5px solid #133157;
     }
 
     .tooltip > .arrow::before {
@@ -568,10 +576,18 @@ $o-wslides-fs-side-width: 300px;
 // Embed PDFViewer
 // **************************************************
 #PDFViewer.o_wslides_fs_pdf_viewer {
-    background-image: linear-gradient(120deg, $o-wslides-color-dark2, $o-wslides-color-dark3);
+    background-image: linear-gradient(
+        120deg,
+        $o-wslides-color-dark2,
+        $o-wslides-color-dark3
+    );
 
     #PDFViewerNav {
-        background-image: linear-gradient(120deg, $o-wslides-color-dark1, $o-wslides-color-dark2);
+        background-image: linear-gradient(
+            120deg,
+            $o-wslides-color-dark1,
+            $o-wslides-color-dark2
+        );
     }
 
     .oe_slides_panel_footer span[role="button"],
@@ -589,11 +605,11 @@ $o-wslides-fs-side-width: 300px;
     }
 
     .oe_slide_embed_option {
-        @include o-position-absolute(0,0,0,0);
+        @include o-position-absolute(0, 0, 0, 0);
     }
 }
 
-.oe_slides_share_bar{
+.oe_slides_share_bar {
     padding: 10px 0;
 }
 

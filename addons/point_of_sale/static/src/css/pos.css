@@ -330,7 +330,7 @@ td {
     margin: 0;
     padding: 0;
     color: gray;
-    background: #875a7b;
+    background: #133157;
     display: flex;
 }
 
@@ -377,7 +377,7 @@ td {
     overflow-x: auto;
 }
 .pos .pos-rightheader > * {
-    border-right: 1px solid #875a7b;
+    border-right: 1px solid #133157;
 }
 
 .pos .status-buttons-portal {

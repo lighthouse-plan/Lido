@@ -17,11 +17,11 @@ from odoo.tools.misc import DEFAULT_SERVER_DATETIME_FORMAT
 _logger = logging.getLogger(__name__)
 
 channel_avatar = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 530.06 530.06">
-<circle cx="265.03" cy="265.03" r="265.03" fill="#875a7b"/>
+<circle cx="265.03" cy="265.03" r="265.03" fill="#133157"/>
 <path d="M416.74,217.29l5-28a8.4,8.4,0,0,0-8.27-9.88H361.09l10.24-57.34a8.4,8.4,0,0,0-8.27-9.88H334.61a8.4,8.4,0,0,0-8.27,6.93L315.57,179.4H246.5l10.24-57.34a8.4,8.4,0,0,0-8.27-9.88H220a8.4,8.4,0,0,0-8.27,6.93L201,179.4H145.6a8.42,8.42,0,0,0-8.28,6.93l-5,28a8.4,8.4,0,0,0,8.27,9.88H193l-16,89.62H121.59a8.4,8.4,0,0,0-8.27,6.93l-5,28a8.4,8.4,0,0,0,8.27,9.88H169L158.73,416a8.4,8.4,0,0,0,8.27,9.88h28.45a8.42,8.42,0,0,0,8.28-6.93l10.76-60.29h69.07L273.32,416a8.4,8.4,0,0,0,8.27,9.88H310a8.4,8.4,0,0,0,8.27-6.93l10.77-60.29h55.38a8.41,8.41,0,0,0,8.28-6.93l5-28a8.4,8.4,0,0,0-8.27-9.88H337.08l16-89.62h55.38A8.4,8.4,0,0,0,416.74,217.29ZM291.56,313.84H222.5l16-89.62h69.07Z" fill="#ffffff"/>
 </svg>'''
 group_avatar = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 530.06 530.06">
-<circle cx="265.03" cy="265.03" r="265.03" fill="#875a7b"/>
+<circle cx="265.03" cy="265.03" r="265.03" fill="#133157"/>
 <path d="m184.356059,265.030004c-23.740561,0.73266 -43.157922,10.11172 -58.252302,28.136961l-29.455881,0c-12.0169,0 -22.128621,-2.96757 -30.335161,-8.90271s-12.309921,-14.618031 -12.309921,-26.048671c0,-51.730902 9.08582,-77.596463 27.257681,-77.596463c0.87928,0 4.06667,1.53874 9.56217,4.61622s12.639651,6.19167 21.432451,9.34235s17.512401,4.72613 26.158581,4.72613c9.8187,0 19.563981,-1.68536 29.236061,-5.05586c-0.73266,5.4223 -1.0991,10.25834 -1.0991,14.508121c0,20.370061 5.93514,39.127962 17.805421,56.273922zm235.42723,140.025346c0,17.585601 -5.34888,31.470971 -16.046861,41.655892s-24.912861,15.277491 -42.645082,15.277491l-192.122688,0c-17.732221,0 -31.947101,-5.09257 -42.645082,-15.277491s-16.046861,-24.070291 -16.046861,-41.655892c0,-7.7669 0.25653,-15.350691 0.76937,-22.751371s1.53874,-15.387401 3.07748,-23.960381s3.48041,-16.523211 5.82523,-23.850471s5.4955,-14.471411 9.45226,-21.432451s8.49978,-12.89618 13.628841,-17.805421c5.12906,-4.90924 11.393931,-8.82951 18.794611,-11.76037s15.570511,-4.3964 24.509931,-4.3964c1.46554,0 4.61622,1.57545 9.45226,4.72613s10.18492,6.6678 16.046861,10.55136c5.86194,3.88356 13.702041,7.40068 23.520741,10.55136s19.710601,4.72613 29.675701,4.72613s19.857001,-1.57545 29.675701,-4.72613s17.658801,-6.6678 23.520741,-10.55136c5.86194,-3.88356 11.21082,-7.40068 16.046861,-10.55136s7.98672,-4.72613 9.45226,-4.72613c8.93942,0 17.109251,1.46554 24.509931,4.3964s13.665551,6.85113 18.794611,11.76037c5.12906,4.90924 9.67208,10.844381 13.628841,17.805421s7.10744,14.105191 9.45226,21.432451s4.28649,15.277491 5.82523,23.850471s2.56464,16.559701 3.07748,23.960381s0.76937,14.984471 0.76937,22.751371zm-225.095689,-280.710152c0,15.534021 -5.4955,28.796421 -16.486501,39.787422s-24.253401,16.486501 -39.787422,16.486501s-28.796421,-5.4955 -39.787422,-16.486501s-16.486501,-24.253401 -16.486501,-39.787422s5.4955,-28.796421 16.486501,-39.787422s24.253401,-16.486501 39.787422,-16.486501s28.796421,5.4955 39.787422,16.486501s16.486501,24.253401 16.486501,39.787422zm154.753287,84.410884c0,23.300921 -8.24325,43.194632 -24.729751,59.681133s-36.380212,24.729751 -59.681133,24.729751s-43.194632,-8.24325 -59.681133,-24.729751s-24.729751,-36.380212 -24.729751,-59.681133s8.24325,-43.194632 24.729751,-59.681133s36.380212,-24.729751 59.681133,-24.729751s43.194632,8.24325 59.681133,24.729751s24.729751,36.380212 24.729751,59.681133zm126.616325,49.459502c0,11.43064 -4.10338,20.113531 -12.309921,26.048671s-18.318261,8.90271 -30.335161,8.90271l-29.455881,0c-15.094381,-18.025241 -34.511741,-27.404301 -58.252302,-28.136961c11.87028,-17.145961 17.805421,-35.903862 17.805421,-56.273922c0,-4.24978 -0.36644,-9.08582 -1.0991,-14.508121c9.67208,3.3705 19.417361,5.05586 29.236061,5.05586c8.64618,0 17.365781,-1.57545 26.158581,-4.72613s15.936951,-6.26487 21.432451,-9.34235s8.68289,-4.61622 9.56217,-4.61622c18.171861,0 27.257681,25.865561 27.257681,77.596463zm-28.136961,-133.870386c0,15.534021 -5.4955,28.796421 -16.486501,39.787422s-24.253401,16.486501 -39.787422,16.486501s-28.796421,-5.4955 -39.787422,-16.486501s-16.486501,-24.253401 -16.486501,-39.787422s5.4955,-28.796421 16.486501,-39.787422s24.253401,-16.486501 39.787422,-16.486501s28.796421,5.4955 39.787422,16.486501s16.486501,24.253401 16.486501,39.787422z" fill="#ffffff"/>
 </svg>'''
 
@@ -41,7 +41,8 @@ class Channel(models.Model):
     def default_get(self, fields):
         res = super(Channel, self).default_get(fields)
         if not res.get('alias_contact') and (not fields or 'alias_contact' in fields):
-            res['alias_contact'] = 'everyone' if res.get('public', 'private') == 'public' else 'followers'
+            res['alias_contact'] = 'everyone' if res.get(
+                'public', 'private') == 'public' else 'followers'
         return res
 
     @api.model
@@ -53,17 +54,20 @@ class Channel(models.Model):
 
     # description
     name = fields.Char('Name', required=True, translate=True)
-    active = fields.Boolean(default=True, help="Set active to false to hide the channel without removing it.")
+    active = fields.Boolean(
+        default=True, help="Set active to false to hide the channel without removing it.")
     channel_type = fields.Selection([
         ('chat', 'Chat'),
         ('channel', 'Channel'),
         ('group', 'Group')],
         string='Channel Type', default='channel', help="Chat is private and unique between 2 persons. Group is private among invited persons. Channel can be freely joined (depending on its configuration).")
     is_chat = fields.Boolean(string='Is a chat', compute='_compute_is_chat')
-    default_display_mode = fields.Selection(string="Default Display Mode", selection=[('video_full_screen', "Full screen video")], help="Determines how the channel will be displayed by default when opening it from its invitation link. No value means display text (no voice/video).")
+    default_display_mode = fields.Selection(string="Default Display Mode", selection=[(
+        'video_full_screen', "Full screen video")], help="Determines how the channel will be displayed by default when opening it from its invitation link. No value means display text (no voice/video).")
     description = fields.Text('Description')
     image_128 = fields.Image("Image", max_width=128, max_height=128)
-    avatar_128 = fields.Image("Avatar", max_width=128, max_height=128, compute='_compute_avatar_128')
+    avatar_128 = fields.Image("Avatar", max_width=128,
+                              max_height=128, compute='_compute_avatar_128')
     channel_partner_ids = fields.Many2many(
         'res.partner', string='Members',
         compute='_compute_channel_partner_ids', inverse='_inverse_channel_partner_ids',
@@ -72,16 +76,20 @@ class Channel(models.Model):
     channel_last_seen_partner_ids = fields.One2many(
         'mail.channel.partner', 'channel_id', string='Last Seen',
         groups='base.group_user')
-    rtc_session_ids = fields.One2many('mail.channel.rtc.session', 'channel_id', groups="base.group_system")
-    is_member = fields.Boolean('Is Member', compute='_compute_is_member', compute_sudo=True)
-    member_count = fields.Integer(string="Member Count", compute='_compute_member_count', compute_sudo=True, help="Excluding guests from count.")
+    rtc_session_ids = fields.One2many(
+        'mail.channel.rtc.session', 'channel_id', groups="base.group_system")
+    is_member = fields.Boolean(
+        'Is Member', compute='_compute_is_member', compute_sudo=True)
+    member_count = fields.Integer(string="Member Count", compute='_compute_member_count',
+                                  compute_sudo=True, help="Excluding guests from count.")
     group_ids = fields.Many2many(
         'res.groups', string='Auto Subscription',
         help="Members of those groups will automatically added as followers. "
              "Note that they will be able to manage their subscription manually "
              "if necessary.")
     # access
-    uuid = fields.Char('UUID', size=50, default=_generate_random_token, copy=False)
+    uuid = fields.Char(
+        'UUID', size=50, default=_generate_random_token, copy=False)
     public = fields.Selection([
         ('public', 'Everyone'),
         ('private', 'Invited people only'),
@@ -101,7 +109,8 @@ class Channel(models.Model):
     def _constraint_partners_chat(self):
         for ch in self.sudo().filtered(lambda ch: ch.channel_type == 'chat'):
             if len(ch.channel_last_seen_partner_ids) > 2 or len(ch.channel_partner_ids) > 2:
-                raise ValidationError(_("A channel of type 'chat' cannot have more than two users."))
+                raise ValidationError(
+                    _("A channel of type 'chat' cannot have more than two users."))
 
     # COMPUTE / INVERSE
 
@@ -120,7 +129,7 @@ class Channel(models.Model):
             return False
         avatar = group_avatar if self.channel_type == 'group' else channel_avatar
         bgcolor = get_hsl_from_seed(self.uuid)
-        avatar = avatar.replace('fill="#875a7b"', f'fill="{bgcolor}"')
+        avatar = avatar.replace('fill="#133157"', f'fill="{bgcolor}"')
         return base64.b64encode(avatar.encode())
 
     @api.depends('channel_last_seen_partner_ids.partner_id')
@@ -140,7 +149,8 @@ class Channel(models.Model):
                 'channel_id': channel.id,
                 'partner_id': partner.id,
             } for partner in partners_new]
-            outdated += current_members.filtered(lambda m: m.partner_id not in partners)
+            outdated += current_members.filtered(
+                lambda m: m.partner_id not in partners)
 
         if new_members:
             self.env['mail.channel.partner'].create(new_members)
@@ -163,10 +173,13 @@ class Channel(models.Model):
 
     @api.depends('channel_partner_ids')
     def _compute_member_count(self):
-        read_group_res = self.env['mail.channel.partner'].read_group(domain=[('channel_id', 'in', self.ids)], fields=['channel_id'], groupby=['channel_id'])
-        member_count_by_channel_id = {item['channel_id'][0]: item['channel_id_count'] for item in read_group_res}
+        read_group_res = self.env['mail.channel.partner'].read_group(domain=[(
+            'channel_id', 'in', self.ids)], fields=['channel_id'], groupby=['channel_id'])
+        member_count_by_channel_id = {
+            item['channel_id'][0]: item['channel_id_count'] for item in read_group_res}
         for channel in self:
-            channel.member_count = member_count_by_channel_id.get(channel.id, 0)
+            channel.member_count = member_count_by_channel_id.get(
+                channel.id, 0)
 
     # ONCHANGE
 
@@ -188,19 +201,24 @@ class Channel(models.Model):
             # find partners to add from partner_ids
             partner_ids_cmd = vals.get('channel_partner_ids') or []
             if any(cmd[0] not in (4, 6) for cmd in partner_ids_cmd):
-                raise ValidationError(_('Invalid value when creating a channel with members, only 4 or 6 are allowed.'))
+                raise ValidationError(
+                    _('Invalid value when creating a channel with members, only 4 or 6 are allowed.'))
             partner_ids = [cmd[1] for cmd in partner_ids_cmd if cmd[0] == 4]
             partner_ids += [cmd[2] for cmd in partner_ids_cmd if cmd[0] == 6]
 
             # find partners to add from channel_last_seen_partner_ids
-            membership_ids_cmd = vals.get('channel_last_seen_partner_ids') or []
+            membership_ids_cmd = vals.get(
+                'channel_last_seen_partner_ids') or []
             if any(cmd[0] != 0 for cmd in membership_ids_cmd):
-                raise ValidationError(_('Invalid value when creating a channel with memberships, only 0 is allowed.'))
-            membership_pids = [cmd[2]['partner_id'] for cmd in membership_ids_cmd if cmd[0] == 0]
+                raise ValidationError(
+                    _('Invalid value when creating a channel with memberships, only 0 is allowed.'))
+            membership_pids = [cmd[2]['partner_id']
+                               for cmd in membership_ids_cmd if cmd[0] == 0]
 
             # always add current user to new channel to have right values for
             # is_pinned + ensure he has rights to see channel
-            partner_ids_to_add = list(set(partner_ids + [self.env.user.partner_id.id]))
+            partner_ids_to_add = list(
+                set(partner_ids + [self.env.user.partner_id.id]))
             vals['channel_last_seen_partner_ids'] = membership_ids_cmd + [
                 (0, 0, {'partner_id': pid})
                 for pid in partner_ids_to_add if pid not in membership_pids
@@ -218,7 +236,8 @@ class Channel(models.Model):
             vals.pop('channel_partner_ids', False)
 
         # Create channel and alias
-        channels = super(Channel, self.with_context(mail_create_nolog=True, mail_create_nosubscribe=True)).create(vals_list)
+        channels = super(Channel, self.with_context(
+            mail_create_nolog=True, mail_create_nosubscribe=True)).create(vals_list)
 
         for access_type, channel in zip(access_types, channels):
             if access_type != 'public':
@@ -236,7 +255,8 @@ class Channel(models.Model):
         except ValueError:
             all_emp_group = None
         if all_emp_group and all_emp_group in self:
-            raise UserError(_('You cannot delete those groups, as the Whole Company group is required by other modules.'))
+            raise UserError(
+                _('You cannot delete those groups, as the Whole Company group is required by other modules.'))
 
     def write(self, vals):
         result = super(Channel, self).write(vals)
@@ -253,9 +273,11 @@ class Channel(models.Model):
         return result
 
     def init(self):
-        self._cr.execute('SELECT indexname FROM pg_indexes WHERE indexname = %s', ('mail_channel_partner_seen_message_id_idx',))
+        self._cr.execute('SELECT indexname FROM pg_indexes WHERE indexname = %s',
+                         ('mail_channel_partner_seen_message_id_idx',))
         if not self._cr.fetchone():
-            self._cr.execute('CREATE INDEX mail_channel_partner_seen_message_id_idx ON mail_channel_partner (channel_id,partner_id,seen_message_id)')
+            self._cr.execute(
+                'CREATE INDEX mail_channel_partner_seen_message_id_idx ON mail_channel_partner (channel_id,partner_id,seen_message_id)')
 
     # ------------------------------------------------------------
     # MEMBERS MANAGEMENT
@@ -274,7 +296,8 @@ class Channel(models.Model):
     def _subscribe_users_automatically_get_members(self):
         """ Return new members per channel ID """
         return dict(
-            (channel.id, (channel.group_ids.users.partner_id - channel.channel_partner_ids).ids)
+            (channel.id, (channel.group_ids.users.partner_id -
+                          channel.channel_partner_ids).ids)
             for channel in self
         )
 
@@ -285,15 +308,20 @@ class Channel(models.Model):
         self.message_unsubscribe(partner.ids)
         if partner not in self.with_context(active_test=False).channel_partner_ids:
             return True
-        channel_info = self.channel_info()[0]  # must be computed before leaving the channel (access rights)
-        result = self.write({'channel_partner_ids': [Command.unlink(partner.id)]})
+        # must be computed before leaving the channel (access rights)
+        channel_info = self.channel_info()[0]
+        result = self.write(
+            {'channel_partner_ids': [Command.unlink(partner.id)]})
         # side effect of unsubscribe that wasn't taken into account because
         # channel_info is called before actually unpinning the channel
         channel_info['is_pinned'] = False
-        self.env['bus.bus']._sendone(partner, 'mail.channel/leave', channel_info)
-        notification = _('<div class="o_mail_notification">left the channel</div>')
+        self.env['bus.bus']._sendone(
+            partner, 'mail.channel/leave', channel_info)
+        notification = _(
+            '<div class="o_mail_notification">left the channel</div>')
         # post 'channel left' message as root since the partner just unsubscribed from the channel
-        self.sudo().message_post(body=notification, subtype_xmlid="mail.mt_comment", author_id=partner.id)
+        self.sudo().message_post(body=notification,
+                                 subtype_xmlid="mail.mt_comment", author_id=partner.id)
         self.env['bus.bus']._sendone(self, 'mail.channel/insert', {
             'id': self.id,
             'memberCount': self.member_count,
@@ -310,29 +338,35 @@ class Channel(models.Model):
         for channel in self:
             members_to_create = []
             if channel.public == 'groups':
-                invalid_partners = partners.filtered(lambda partner: channel.group_public_id not in partner.user_ids.groups_id)
+                invalid_partners = partners.filtered(
+                    lambda partner: channel.group_public_id not in partner.user_ids.groups_id)
                 if invalid_partners:
                     raise UserError(_(
                         'Channel "%(channel_name)s" only accepts members of group "%(group_name)s". Forbidden for: %(partner_names)s',
                         channel_name=channel.name,
                         group_name=channel.group_public_id.name,
-                        partner_names=', '.join(partner.name for partner in invalid_partners)
+                        partner_names=', '.join(
+                            partner.name for partner in invalid_partners)
                     ))
-            existing_partners = self.env['res.partner'].search([('id', 'in', partners.ids), ('channel_ids', 'in', channel.id)])
+            existing_partners = self.env['res.partner'].search(
+                [('id', 'in', partners.ids), ('channel_ids', 'in', channel.id)])
             members_to_create += [{
                 'partner_id': partner.id,
                 'channel_id': channel.id,
             } for partner in partners - existing_partners]
-            existing_guests = self.env['mail.guest'].search([('id', 'in', guests.ids), ('channel_ids', 'in', channel.id)])
+            existing_guests = self.env['mail.guest'].search(
+                [('id', 'in', guests.ids), ('channel_ids', 'in', channel.id)])
             members_to_create += [{
                 'guest_id': partner.id,
                 'channel_id': channel.id,
             } for partner in guests - existing_guests]
-            new_members = self.env['mail.channel.partner'].sudo().create(members_to_create)
+            new_members = self.env['mail.channel.partner'].sudo().create(
+                members_to_create)
             members_data = []
             guest_members_data = []
             for channel_partner in new_members.filtered(lambda channel_partner: channel_partner.partner_id):
-                user = channel_partner.partner_id.user_ids[0] if channel_partner.partner_id.user_ids else self.env['res.users']
+                user = channel_partner.partner_id.user_ids[
+                    0] if channel_partner.partner_id.user_ids else self.env['res.users']
                 # notify invited members through the bus
                 if user:
                     self.env['bus.bus']._sendone(channel_partner.partner_id, 'mail.channel/joined', {
@@ -341,21 +375,24 @@ class Channel(models.Model):
                     })
                 # notify existing members with a new message in the channel
                 if channel_partner.partner_id == self.env.user.partner_id:
-                    notification = _('<div class="o_mail_notification">joined the channel</div>')
+                    notification = _(
+                        '<div class="o_mail_notification">joined the channel</div>')
                 else:
                     notification = _(
                         '<div class="o_mail_notification">invited <a href="#" data-oe-model="res.partner" data-oe-id="%(new_partner_id)d">%(new_partner_name)s</a> to the channel</div>',
                         new_partner_id=channel_partner.partner_id.id,
                         new_partner_name=channel_partner.partner_id.name,
                     )
-                channel_partner.channel_id.message_post(body=notification, message_type="notification", subtype_xmlid="mail.mt_comment", notify_by_email=False)
+                channel_partner.channel_id.message_post(
+                    body=notification, message_type="notification", subtype_xmlid="mail.mt_comment", notify_by_email=False)
                 members_data.append({
                     'id': channel_partner.partner_id.id,
                     'im_status': channel_partner.partner_id.im_status,
                     'name': channel_partner.partner_id.name,
                 })
             for channel_partner in new_members.filtered(lambda channel_partner: channel_partner.guest_id):
-                channel_partner.channel_id.message_post(body=_('<div class="o_mail_notification">joined the channel</div>'), message_type="notification", subtype_xmlid="mail.mt_comment", notify_by_email=False)
+                channel_partner.channel_id.message_post(body=_('<div class="o_mail_notification">joined the channel</div>'),
+                                                        message_type="notification", subtype_xmlid="mail.mt_comment", notify_by_email=False)
                 guest_members_data.append({
                     'id': channel_partner.guest_id.id,
                     'name': channel_partner.guest_id.name,
@@ -379,9 +416,11 @@ class Channel(models.Model):
                 guest = self.env['mail.guest']
                 partner = self.env.user.partner_id
             for channel in self:
-                current_channel_partner = self.env['mail.channel.partner'].sudo().search([('channel_id', '=', channel.id), ('partner_id', '=', partner.id), ('guest_id', '=', guest.id)])
+                current_channel_partner = self.env['mail.channel.partner'].sudo().search(
+                    [('channel_id', '=', channel.id), ('partner_id', '=', partner.id), ('guest_id', '=', guest.id)])
                 if current_channel_partner and current_channel_partner.rtc_session_ids:
-                    current_channel_partner._rtc_invite_members(partner_ids=partners.ids, guest_ids=guests.ids)
+                    current_channel_partner._rtc_invite_members(
+                        partner_ids=partners.ids, guest_ids=guests.ids)
 
     def _action_remove_members(self, partners):
         """ Private implementation to remove members from channels. Done as sudo
@@ -390,7 +429,8 @@ class Channel(models.Model):
             ('partner_id', 'in', partners.ids),
             ('channel_id', 'in', self.ids)
         ]).unlink()
-        self.invalidate_cache(fnames=['channel_partner_ids', 'channel_last_seen_partner_ids'])
+        self.invalidate_cache(
+            fnames=['channel_partner_ids', 'channel_last_seen_partner_ids'])
 
     def _can_invite(self, partner_id):
         """Return True if the current user can invite the partner to the channel.
@@ -451,11 +491,14 @@ class Channel(models.Model):
         self.env['bus.bus']._sendmany(invitation_notifications)
         channel_data = {'id': self.id}
         if invited_guests:
-            channel_data['invitedGuests'] = [('insert-and-unlink', [{'id': guest.id} for guest in invited_guests])]
+            channel_data['invitedGuests'] = [
+                ('insert-and-unlink', [{'id': guest.id} for guest in invited_guests])]
         if invited_partners:
-            channel_data['invitedPartners'] = [('insert-and-unlink', [{'id': partner.id} for partner in invited_partners])]
+            channel_data['invitedPartners'] = [
+                ('insert-and-unlink', [{'id': partner.id} for partner in invited_partners])]
         if invited_partners or invited_guests:
-            self.env['bus.bus']._sendone(self, 'mail.channel/insert', channel_data)
+            self.env['bus.bus']._sendone(
+                self, 'mail.channel/insert', channel_data)
         return channel_data
 
     # ------------------------------------------------------------
@@ -471,7 +514,8 @@ class Channel(models.Model):
 
     def _alias_get_error_message(self, message, message_dict, alias):
         if alias.alias_contact == 'followers' and self.ids:
-            author = self.env['res.partner'].browse(message_dict.get('author_id', False))
+            author = self.env['res.partner'].browse(
+                message_dict.get('author_id', False))
             if not author or author not in self.channel_partner_ids:
                 return _('restricted to channel members')
             return False
@@ -491,8 +535,10 @@ class Channel(models.Model):
         """
         # get values from msg_vals or from message if msg_vals doen't exists
         msg_sudo = message.sudo()
-        message_type = msg_vals.get('message_type', 'email') if msg_vals else msg_sudo.message_type
-        pids = msg_vals.get('partner_ids', []) if msg_vals else msg_sudo.partner_ids.ids
+        message_type = msg_vals.get(
+            'message_type', 'email') if msg_vals else msg_sudo.message_type
+        pids = msg_vals.get(
+            'partner_ids', []) if msg_vals else msg_sudo.partner_ids.ids
 
         # notify only user input (comment or incoming emails)
         if message_type not in ('comment', 'email'):
@@ -501,13 +547,16 @@ class Channel(models.Model):
         if not pids:
             return []
 
-        email_from = tools.email_normalize(msg_vals.get('email_from') or msg_sudo.email_from)
+        email_from = tools.email_normalize(
+            msg_vals.get('email_from') or msg_sudo.email_from)
         author_id = msg_vals.get('author_id') or msg_sudo.author_id.id
 
         recipients_data = []
         if pids:
-            self.env['res.partner'].flush(fnames=['active', 'email', 'partner_share'])
-            self.env['res.users'].flush(fnames=['notification_type', 'partner_id'])
+            self.env['res.partner'].flush(
+                fnames=['active', 'email', 'partner_share'])
+            self.env['res.users'].flush(
+                fnames=['notification_type', 'partner_id'])
             sql_query = """
                 SELECT DISTINCT ON (partner.id) partner.id,
                        partner.partner_share,
@@ -519,7 +568,8 @@ class Channel(models.Model):
                        AND partner.id = ANY(%s) AND partner.id != ANY(%s)"""
             self.env.cr.execute(
                 sql_query,
-                (email_from or '', list(pids), [author_id] if author_id else [], )
+                (email_from or '', list(pids), [
+                 author_id] if author_id else [], )
             )
             for partner_id, partner_share, notif in self._cr.fetchall():
                 # ocn_client: will add partners to recipient recipient_data. more ocn notifications. We neeed to filter them maybe
@@ -547,10 +597,12 @@ class Channel(models.Model):
 
     def _notify_thread(self, message, msg_vals=False, **kwargs):
         # link message to channel
-        rdata = super(Channel, self)._notify_thread(message, msg_vals=msg_vals, **kwargs)
+        rdata = super(Channel, self)._notify_thread(
+            message, msg_vals=msg_vals, **kwargs)
 
         message_format_values = message.message_format()[0]
-        bus_notifications = self._channel_message_notifications(message, message_format_values)
+        bus_notifications = self._channel_message_notifications(
+            message, message_format_values)
         self.env['bus.bus'].sudo()._sendmany(bus_notifications)
         # Last interest is updated for a chat when posting a message.
         # So a notification is needed to update UI.
@@ -606,7 +658,8 @@ class Channel(models.Model):
         """ We don't call super in this override as we want to ignore the
         mail.thread behavior completely """
         if not message.message_type == 'comment':
-            raise UserError(_("Only messages type comment can have their content updated on model 'mail.channel'"))
+            raise UserError(
+                _("Only messages type comment can have their content updated on model 'mail.channel'"))
 
     def _message_update_content_after_hook(self, message):
         self.ensure_one()
@@ -625,7 +678,8 @@ class Channel(models.Model):
         else:
             guests = []
             partners = [('insert', {'id': self.env.user.partner_id.id})]
-        reactions = self.env['mail.message.reaction'].sudo().search([('message_id', '=', message.id), ('content', '=', content)])
+        reactions = self.env['mail.message.reaction'].sudo().search(
+            [('message_id', '=', message.id), ('content', '=', content)])
         self.env['bus.bus']._sendone(self, 'mail.message/insert', {
             'id': message.id,
             'messageReactionGroups': [('insert' if len(reactions) > 0 else 'insert-and-unlink', {
@@ -641,12 +695,15 @@ class Channel(models.Model):
     def _message_remove_reaction_after_hook(self, message, content):
         self.ensure_one()
         if self.env.user._is_public() and 'guest' in self.env.context:
-            guests = [('insert-and-unlink', {'id': self.env.context.get('guest').id})]
+            guests = [
+                ('insert-and-unlink', {'id': self.env.context.get('guest').id})]
             partners = []
         else:
             guests = []
-            partners = [('insert-and-unlink', {'id': self.env.user.partner_id.id})]
-        reactions = self.env['mail.message.reaction'].sudo().search([('message_id', '=', message.id), ('content', '=', content)])
+            partners = [
+                ('insert-and-unlink', {'id': self.env.user.partner_id.id})]
+        reactions = self.env['mail.message.reaction'].sudo().search(
+            [('message_id', '=', message.id), ('content', '=', content)])
         self.env['bus.bus']._sendone(self, 'mail.message/insert', {
             'id': message.id,
             'messageReactionGroups': [('insert' if len(reactions) > 0 else 'insert-and-unlink', {
@@ -662,7 +719,8 @@ class Channel(models.Model):
     def _message_subscribe(self, partner_ids=None, subtype_ids=None, customer_ids=None):
         """ Do not allow follower subscription on channels. Only members are
         considered. """
-        raise UserError(_('Adding followers on channels is not possible. Consider adding members instead.'))
+        raise UserError(
+            _('Adding followers on channels is not possible. Consider adding members instead.'))
 
     # ------------------------------------------------------------
     # BROADCAST
@@ -689,7 +747,8 @@ class Channel(models.Model):
                     allowed_company_ids=user_id.company_ids.ids
                 )
                 for channel_info in user_channels.channel_info():
-                    notifications.append((partner, 'mail.channel/legacy_insert', channel_info))
+                    notifications.append(
+                        (partner, 'mail.channel/legacy_insert', channel_info))
         return notifications
 
     def _channel_message_notifications(self, message, message_format=False):
@@ -704,10 +763,12 @@ class Channel(models.Model):
                 'id': channel.id,
                 'message': dict(message_format),
             }
-            notifications.append((channel, 'mail.channel/new_message', payload))
+            notifications.append(
+                (channel, 'mail.channel/new_message', payload))
             # add uuid to allow anonymous to listen
             if channel.public == 'public':
-                notifications.append((channel.uuid, 'mail.channel/new_message', payload))
+                notifications.append(
+                    (channel.uuid, 'mail.channel/new_message', payload))
         return notifications
 
     # ------------------------------------------------------------
@@ -728,18 +789,25 @@ class Channel(models.Model):
         if not self:
             return []
         channel_infos = []
-        rtc_sessions_by_channel = self.sudo().rtc_session_ids._mail_rtc_session_format_by_channel()
-        channel_last_message_ids = dict((r['id'], r['message_id']) for r in self._channel_last_message_ids())
+        rtc_sessions_by_channel = self.sudo(
+        ).rtc_session_ids._mail_rtc_session_format_by_channel()
+        channel_last_message_ids = dict(
+            (r['id'], r['message_id']) for r in self._channel_last_message_ids())
         all_needed_members_domain = expression.OR([
             [('channel_id.channel_type', '!=', 'channel')],
             [('rtc_inviting_session_id', '!=', False)],
-            [('partner_id', '=', self.env.user.partner_id.id)] if self.env.user and self.env.user.partner_id else expression.FALSE_LEAF,
+            [('partner_id', '=', self.env.user.partner_id.id)
+             ] if self.env.user and self.env.user.partner_id else expression.FALSE_LEAF,
         ])
-        all_needed_members = self.env['mail.channel.partner'].search(expression.AND([[('channel_id', 'in', self.ids)], all_needed_members_domain]))
+        all_needed_members = self.env['mail.channel.partner'].search(
+            expression.AND([[('channel_id', 'in', self.ids)], all_needed_members_domain]))
         partner_format_by_partner = all_needed_members.partner_id.mail_partner_format()
-        members_by_channel = defaultdict(lambda: self.env['mail.channel.partner'])
-        invited_members_by_channel = defaultdict(lambda: self.env['mail.channel.partner'])
-        member_of_current_user_by_channel = defaultdict(lambda: self.env['mail.channel.partner'])
+        members_by_channel = defaultdict(
+            lambda: self.env['mail.channel.partner'])
+        invited_members_by_channel = defaultdict(
+            lambda: self.env['mail.channel.partner'])
+        member_of_current_user_by_channel = defaultdict(
+            lambda: self.env['mail.channel.partner'])
         for member in all_needed_members:
             members_by_channel[member.channel_id] |= member
             if member.rtc_inviting_session_id:
@@ -762,13 +830,15 @@ class Channel(models.Model):
                 'create_uid': channel.create_uid.id,
             }
             # add last message preview (only used in mobile)
-            info['last_message_id'] = channel_last_message_ids.get(channel.id, False)
+            info['last_message_id'] = channel_last_message_ids.get(
+                channel.id, False)
             info['memberCount'] = channel.member_count
             # find the channel partner state, if logged user
             if self.env.user and self.env.user.partner_id:
                 info['message_needaction_counter'] = channel.message_needaction_counter
                 info['message_unread_counter'] = channel.message_unread_counter
-                partner_channel = member_of_current_user_by_channel.get(channel, self.env['mail.channel.partner'])
+                partner_channel = member_of_current_user_by_channel.get(
+                    channel, self.env['mail.channel.partner'])
                 if partner_channel:
                     partner_channel = partner_channel[0]
                     info['state'] = partner_channel.fold_state or 'open'
@@ -776,15 +846,18 @@ class Channel(models.Model):
                     info['seen_message_id'] = partner_channel.seen_message_id.id
                     info['custom_channel_name'] = partner_channel.custom_channel_name
                     info['is_pinned'] = partner_channel.is_pinned
-                    info['last_interest_dt'] = partner_channel.last_interest_dt.strftime(DEFAULT_SERVER_DATETIME_FORMAT)
+                    info['last_interest_dt'] = partner_channel.last_interest_dt.strftime(
+                        DEFAULT_SERVER_DATETIME_FORMAT)
                     if partner_channel.rtc_inviting_session_id:
-                        info['rtc_inviting_session'] = {'id': partner_channel.rtc_inviting_session_id.id}
+                        info['rtc_inviting_session'] = {
+                            'id': partner_channel.rtc_inviting_session_id.id}
             # add members info
             if channel.channel_type != 'channel':
                 # avoid sending potentially a lot of members for big channels
                 # exclude chat and other small channels from this optimization because they are
                 # assumed to be smaller and it's important to know the member list for them
-                info['members'] = sorted(list(channel._channel_info_format_member(member.partner_id, partner_format_by_partner[member.partner_id]) for member in members_by_channel[channel] if member.partner_id), key=lambda p: p['id'])
+                info['members'] = sorted(list(channel._channel_info_format_member(member.partner_id, partner_format_by_partner[member.partner_id])
+                                              for member in members_by_channel[channel] if member.partner_id), key=lambda p: p['id'])
                 info['seen_partners_info'] = sorted([{
                     'id': cp.id,
                     'partner_id': cp.partner_id.id,
@@ -815,7 +888,8 @@ class Channel(models.Model):
             :rtype : list(dict)
         """
         self.ensure_one()
-        domain = ["&", ("model", "=", "mail.channel"), ("res_id", "in", self.ids)]
+        domain = ["&", ("model", "=", "mail.channel"),
+                  ("res_id", "in", self.ids)]
         if last_id:
             domain.append(("id", "<", last_id))
         return self.env['mail.message']._message_fetch(domain=domain, limit=limit)
@@ -834,7 +908,8 @@ class Channel(models.Model):
         if self.env.user.partner_id.id not in partners_to:
             partners_to.append(self.env.user.partner_id.id)
         if len(partners_to) > 2:
-            raise UserError(_("A chat should not be created with more than 2 persons. Create a group instead."))
+            raise UserError(
+                _("A chat should not be created with more than 2 persons. Create a group instead."))
         # determine type according to the number of partner in the channel
         self.flush()
         self.env.cr.execute("""
@@ -883,7 +958,8 @@ class Channel(models.Model):
             Note: the user need to be logged
             :param state : the new status of the session for the current user.
         """
-        domain = [('partner_id', '=', self.env.user.partner_id.id), ('channel_id.uuid', '=', uuid)]
+        domain = [('partner_id', '=', self.env.user.partner_id.id),
+                  ('channel_id.uuid', '=', uuid)]
         for session_state in self.env['mail.channel.partner'].search(domain):
             if not state:
                 state = session_state.fold_state
@@ -918,9 +994,11 @@ class Channel(models.Model):
         if channel_partners:
             channel_partners.write({'is_pinned': pinned})
         if not pinned:
-            self.env['bus.bus']._sendone(self.env.user.partner_id, 'mail.channel/unpin', {'id': self.id})
+            self.env['bus.bus']._sendone(
+                self.env.user.partner_id, 'mail.channel/unpin', {'id': self.id})
         else:
-            self.env['bus.bus']._sendone(self.env.user.partner_id, 'mail.channel/legacy_insert', self.channel_info()[0])
+            self.env['bus.bus']._sendone(
+                self.env.user.partner_id, 'mail.channel/legacy_insert', self.channel_info()[0])
 
     def _channel_seen(self, last_message_id=None):
         """
@@ -930,10 +1008,12 @@ class Channel(models.Model):
         kept only for compatibility reasons.
         """
         self.ensure_one()
-        domain = ["&", ("model", "=", "mail.channel"), ("res_id", "in", self.ids)]
+        domain = ["&", ("model", "=", "mail.channel"),
+                  ("res_id", "in", self.ids)]
         if last_message_id:
             domain = expression.AND([domain, [('id', '<=', last_message_id)]])
-        last_message = self.env['mail.message'].search(domain, order="id DESC", limit=1)
+        last_message = self.env['mail.message'].search(
+            domain, order="id DESC", limit=1)
         if not last_message:
             return
         self._set_last_seen_message(last_message)
@@ -959,8 +1039,10 @@ class Channel(models.Model):
                 [('seen_message_id', '<', last_message.id)]
             ])
         ])
-        channel_partner_domain = expression.AND([channel_partner_domain, [('partner_id', '=', self.env.user.partner_id.id)]])
-        channel_partner = self.env['mail.channel.partner'].search(channel_partner_domain)
+        channel_partner_domain = expression.AND(
+            [channel_partner_domain, [('partner_id', '=', self.env.user.partner_id.id)]])
+        channel_partner = self.env['mail.channel.partner'].search(
+            channel_partner_domain)
         channel_partner.write({
             'fetched_message_id': last_message.id,
             'seen_message_id': last_message.id,
@@ -974,8 +1056,10 @@ class Channel(models.Model):
                 return
             if channel.channel_type != 'chat':
                 return
-            last_message_id = channel.message_ids.ids[0] # zero is the index of the last message
-            channel_partner = self.env['mail.channel.partner'].search([('channel_id', '=', channel.id), ('partner_id', '=', self.env.user.partner_id.id)], limit=1)
+            # zero is the index of the last message
+            last_message_id = channel.message_ids.ids[0]
+            channel_partner = self.env['mail.channel.partner'].search(
+                [('channel_id', '=', channel.id), ('partner_id', '=', self.env.user.partner_id.id)], limit=1)
             if channel_partner.fetched_message_id.id == last_message_id:
                 # last message fetched by user is already up-to-date
                 return
@@ -991,7 +1075,8 @@ class Channel(models.Model):
 
     def channel_set_custom_name(self, name):
         self.ensure_one()
-        channel_partner = self.env['mail.channel.partner'].search([('partner_id', '=', self.env.user.partner_id.id), ('channel_id', '=', self.id)])
+        channel_partner = self.env['mail.channel.partner'].search(
+            [('partner_id', '=', self.env.user.partner_id.id), ('channel_id', '=', self.id)])
         channel_partner.write({'custom_channel_name': name})
         self.env['bus.bus']._sendone(channel_partner.partner_id, 'mail.channel/insert', {
             'id': self.id,
@@ -1024,8 +1109,12 @@ class Channel(models.Model):
                 'channel_id': channel.id,
                 'is_typing': is_typing,
             }, **channel._notify_typing_partner_data())
-            notifications.append([channel, 'mail.channel.partner/typing_status', data])  # notify backend users
-            notifications.append([channel.uuid, 'mail.channel.partner/typing_status', data])  # notify frontend users
+            # notify backend users
+            notifications.append(
+                [channel, 'mail.channel.partner/typing_status', data])
+            # notify frontend users
+            notifications.append(
+                [channel.uuid, 'mail.channel.partner/typing_status', data])
         self.env['bus.bus']._sendmany(notifications)
 
     def _notify_typing_partner_data(self):
@@ -1052,7 +1141,8 @@ class Channel(models.Model):
             domain
         ])
         if name:
-            domain = expression.AND([domain, [('name', 'ilike', '%'+name+'%')]])
+            domain = expression.AND(
+                [domain, [('name', 'ilike', '%'+name+'%')]])
         return self.search(domain).read(['name', 'public', 'uuid', 'channel_type'])
 
     def channel_join(self):
@@ -1074,10 +1164,13 @@ class Channel(models.Model):
             'name': name,
             'public': privacy,
         })
-        notification = _('<div class="o_mail_notification">created <a href="#" class="o_channel_redirect" data-oe-id="%s">#%s</a></div>', new_channel.id, new_channel.name)
-        new_channel.message_post(body=notification, message_type="notification", subtype_xmlid="mail.mt_comment")
+        notification = _('<div class="o_mail_notification">created <a href="#" class="o_channel_redirect" data-oe-id="%s">#%s</a></div>',
+                         new_channel.id, new_channel.name)
+        new_channel.message_post(
+            body=notification, message_type="notification", subtype_xmlid="mail.mt_comment")
         channel_info = new_channel.channel_info()[0]
-        self.env['bus.bus']._sendone(self.env.user.partner_id, 'mail.channel/legacy_insert', channel_info)
+        self.env['bus.bus']._sendone(
+            self.env.user.partner_id, 'mail.channel/legacy_insert', channel_info)
         return channel_info
 
     @api.model
@@ -1103,13 +1196,14 @@ class Channel(models.Model):
             'search' string. Exclude channels of type chat (DM), and private channels the current
             user isn't registered to. """
         domain = expression.AND([
-                        [('name', 'ilike', search)],
-                        [('channel_type', '=', 'channel')],
-                        expression.OR([
-                            [('public', '!=', 'private')],
-                            [('channel_partner_ids', 'in', [self.env.user.partner_id.id])]
-                        ])
-                    ])
+            [('name', 'ilike', search)],
+            [('channel_type', '=', 'channel')],
+            expression.OR([
+                [('public', '!=', 'private')],
+                [('channel_partner_ids', 'in', [
+                    self.env.user.partner_id.id])]
+            ])
+        ])
         return self.search_read(domain, ['id', 'name', 'public', 'channel_type'], limit=limit)
 
     @api.model
@@ -1128,8 +1222,10 @@ class Channel(models.Model):
         if not self:
             return []
         channels_last_message_ids = self._channel_last_message_ids()
-        channels_preview = dict((r['message_id'], r) for r in channels_last_message_ids)
-        last_messages = self.env['mail.message'].browse(channels_preview).message_format()
+        channels_preview = dict((r['message_id'], r)
+                                for r in channels_last_message_ids)
+        last_messages = self.env['mail.message'].browse(
+            channels_preview).message_format()
         for message in last_messages:
             channel = channels_preview[message['id']]
             del(channel['message_id'])
@@ -1152,7 +1248,8 @@ class Channel(models.Model):
     def load_more_members(self, known_member_ids):
         self.ensure_one()
         partners = self.env['res.partner'].with_context(active_test=False).search_read(
-            domain=[('id', 'not in', known_member_ids), ('channel_ids', 'in', self.id)],
+            domain=[('id', 'not in', known_member_ids),
+                    ('channel_ids', 'in', self.id)],
             fields=['id', 'name', 'im_status'],
             limit=30
         )
@@ -1185,9 +1282,12 @@ class Channel(models.Model):
             if self.public == 'private':
                 msg += _(" This channel is private. People must be invited to join it.")
         else:
-            all_channel_partners = self.env['mail.channel.partner'].with_context(active_test=False)
-            channel_partners = all_channel_partners.search([('partner_id', '!=', partner.id), ('channel_id', '=', self.id)])
-            msg = _("You are in a private conversation with <b>@%s</b>.", html_escape(channel_partners[0].partner_id.name if channel_partners else _('Anonymous')))
+            all_channel_partners = self.env['mail.channel.partner'].with_context(
+                active_test=False)
+            channel_partners = all_channel_partners.search(
+                [('partner_id', '!=', partner.id), ('channel_id', '=', self.id)])
+            msg = _("You are in a private conversation with <b>@%s</b>.", html_escape(
+                channel_partners[0].partner_id.name if channel_partners else _('Anonymous')))
         msg += self._execute_command_help_message_extra()
 
         self._send_transient_message(partner, msg)
@@ -1214,7 +1314,9 @@ class Channel(models.Model):
         if len(members) == 0:
             msg = _("You are alone in this channel.")
         else:
-            dots = "..." if len(members) != len(self.channel_partner_ids) - 1 else ""
-            msg = _("Users in this channel: %(members)s %(dots)s and you.", members=", ".join(members), dots=dots)
+            dots = "..." if len(members) != len(
+                self.channel_partner_ids) - 1 else ""
+            msg = _("Users in this channel: %(members)s %(dots)s and you.",
+                    members=", ".join(members), dots=dots)
 
         self._send_transient_message(partner, msg)

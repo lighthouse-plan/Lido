@@ -17,14 +17,17 @@ class account_journal(models.Model):
 
     def _kanban_dashboard(self):
         for journal in self:
-            journal.kanban_dashboard = json.dumps(journal.get_journal_dashboard_datas())
+            journal.kanban_dashboard = json.dumps(
+                journal.get_journal_dashboard_datas())
 
     def _kanban_dashboard_graph(self):
         for journal in self:
             if (journal.type in ['sale', 'purchase']):
-                journal.kanban_dashboard_graph = json.dumps(journal.get_bar_graph_datas())
+                journal.kanban_dashboard_graph = json.dumps(
+                    journal.get_bar_graph_datas())
             elif (journal.type in ['cash', 'bank']):
-                journal.kanban_dashboard_graph = json.dumps(journal.get_line_graph_datas())
+                journal.kanban_dashboard_graph = json.dumps(
+                    journal.get_line_graph_datas())
             else:
                 journal.kanban_dashboard_graph = False
 
@@ -69,7 +72,8 @@ class account_journal(models.Model):
     kanban_dashboard = fields.Text(compute='_kanban_dashboard')
     kanban_dashboard_graph = fields.Text(compute='_kanban_dashboard_graph')
     json_activity_data = fields.Text(compute='_get_json_activity_data')
-    show_on_dashboard = fields.Boolean(string='Show journal on dashboard', help="Whether this journal should be displayed on the dashboard or not", default=True)
+    show_on_dashboard = fields.Boolean(string='Show journal on dashboard',
+                                       help="Whether this journal should be displayed on the dashboard or not", default=True)
     color = fields.Integer("Color Index", default=0)
     entries_count = fields.Integer(compute='_compute_entries_count')
 
@@ -99,10 +103,10 @@ class account_journal(models.Model):
         currency = self.currency_id or self.company_id.currency_id
 
         def build_graph_data(date, amount):
-            #display date in locale format
+            # display date in locale format
             name = format_date(date, 'd LLLL Y', locale=locale)
             short_name = format_date(date, 'd MMM', locale=locale)
-            return {'x':short_name,'y': amount, 'name':name}
+            return {'x': short_name, 'y': amount, 'name': name}
 
         self.ensure_one()
         BankStatement = self.env['account.bank.statement']
@@ -111,14 +115,15 @@ class account_journal(models.Model):
         last_month = today + timedelta(days=-30)
         locale = get_lang(self.env).code
 
-        #starting point of the graph is the last statement
-        last_stmt = self._get_last_bank_statement(domain=[('move_id.state', '=', 'posted')])
+        # starting point of the graph is the last statement
+        last_stmt = self._get_last_bank_statement(
+            domain=[('move_id.state', '=', 'posted')])
 
         last_balance = last_stmt and last_stmt.balance_end_real or 0
         data.append(build_graph_data(today, last_balance))
 
-        #then we subtract the total amount of bank statement lines per day to get the previous points
-        #(graph is drawn backward)
+        # then we subtract the total amount of bank statement lines per day to get the previous points
+        # (graph is drawn backward)
         date = today
         amount = last_balance
         query = '''
@@ -135,7 +140,8 @@ class account_journal(models.Model):
         query_result = self.env.cr.dictfetchall()
         for val in query_result:
             date = val['date']
-            if date != today.strftime(DF):  # make sure the last point in the graph is today
+            # make sure the last point in the graph is today
+            if date != today.strftime(DF):
                 data[:0] = [build_graph_data(date, amount)]
             amount = currency.round(amount - val['amount'])
 
@@ -144,49 +150,58 @@ class account_journal(models.Model):
             data[:0] = [build_graph_data(last_month, amount)]
 
         [graph_title, graph_key] = self._graph_title_and_key()
-        color = '#875A7B' if 'e' in version else '#7c7bad'
+        color = '#133157' if 'e' in version else '#7c7bad'
 
         is_sample_data = not last_stmt and len(query_result) == 0
         if is_sample_data:
             data = []
             for i in range(30, 0, -5):
                 current_date = today + timedelta(days=-i)
-                data.append(build_graph_data(current_date, random.randint(-5, 15)))
+                data.append(build_graph_data(
+                    current_date, random.randint(-5, 15)))
 
         return [{'values': data, 'title': graph_title, 'key': graph_key, 'area': True, 'color': color, 'is_sample_data': is_sample_data}]
 
     def get_bar_graph_datas(self):
         data = []
         today = fields.Datetime.now(self)
-        data.append({'label': _('Due'), 'value':0.0, 'type': 'past'})
-        day_of_week = int(format_datetime(today, 'e', locale=get_lang(self.env).code))
+        data.append({'label': _('Due'), 'value': 0.0, 'type': 'past'})
+        day_of_week = int(format_datetime(
+            today, 'e', locale=get_lang(self.env).code))
         first_day_of_week = today + timedelta(days=-day_of_week+1)
-        for i in range(-1,4):
-            if i==0:
+        for i in range(-1, 4):
+            if i == 0:
                 label = _('This Week')
-            elif i==3:
+            elif i == 3:
                 label = _('Not Due')
             else:
                 start_week = first_day_of_week + timedelta(days=i*7)
                 end_week = start_week + timedelta(days=6)
                 if start_week.month == end_week.month:
-                    label = str(start_week.day) + '-' + str(end_week.day) + ' ' + format_date(end_week, 'MMM', locale=get_lang(self.env).code)
+                    label = str(start_week.day) + '-' + str(end_week.day) + ' ' + \
+                        format_date(end_week, 'MMM',
+                                    locale=get_lang(self.env).code)
                 else:
-                    label = format_date(start_week, 'd MMM', locale=get_lang(self.env).code) + '-' + format_date(end_week, 'd MMM', locale=get_lang(self.env).code)
-            data.append({'label':label,'value':0.0, 'type': 'past' if i<0 else 'future'})
+                    label = format_date(start_week, 'd MMM', locale=get_lang(
+                        self.env).code) + '-' + format_date(end_week, 'd MMM', locale=get_lang(self.env).code)
+            data.append({'label': label, 'value': 0.0,
+                         'type': 'past' if i < 0 else 'future'})
 
         # Build SQL query to find amount aggregated by week
         (select_sql_clause, query_args) = self._get_bar_graph_select_query()
         query = ''
         start_date = (first_day_of_week + timedelta(days=-7))
-        for i in range(0,6):
+        for i in range(0, 6):
             if i == 0:
-                query += "("+select_sql_clause+" and invoice_date_due < '"+start_date.strftime(DF)+"')"
+                query += "("+select_sql_clause + \
+                    " and invoice_date_due < '"+start_date.strftime(DF)+"')"
             elif i == 5:
-                query += " UNION ALL ("+select_sql_clause+" and invoice_date_due >= '"+start_date.strftime(DF)+"')"
+                query += " UNION ALL ("+select_sql_clause + \
+                    " and invoice_date_due >= '"+start_date.strftime(DF)+"')"
             else:
                 next_date = start_date + timedelta(days=7)
-                query += " UNION ALL ("+select_sql_clause+" and invoice_date_due >= '"+start_date.strftime(DF)+"' and invoice_date_due < '"+next_date.strftime(DF)+"')"
+                query += " UNION ALL ("+select_sql_clause+" and invoice_date_due >= '"+start_date.strftime(
+                    DF)+"' and invoice_date_due < '"+next_date.strftime(DF)+"')"
                 start_date = next_date
 
         self.env.cr.execute(query, query_args)
@@ -262,10 +277,12 @@ class account_journal(models.Model):
             to_check_ids = self.to_check_ids()
             number_to_check = len(to_check_ids)
             to_check_balance = sum([r.amount for r in to_check_ids])
-        #TODO need to check if all invoices are in the same currency than the journal!!!!
+        # TODO need to check if all invoices are in the same currency than the journal!!!!
         elif self.type in ['sale', 'purchase']:
-            title = _('Bills to pay') if self.type == 'purchase' else _('Invoices owed to you')
-            self.env['account.move'].flush(['amount_residual', 'currency_id', 'move_type', 'invoice_date', 'company_id', 'journal_id', 'date', 'state', 'payment_state'])
+            title = _('Bills to pay') if self.type == 'purchase' else _(
+                'Invoices owed to you')
+            self.env['account.move'].flush(['amount_residual', 'currency_id', 'move_type',
+                                            'invoice_date', 'company_id', 'journal_id', 'date', 'state', 'payment_state'])
 
             (query, query_args) = self._get_open_bills_to_pay_query()
             self.env.cr.execute(query, query_args)
@@ -280,20 +297,26 @@ class account_journal(models.Model):
             late_query_results = self.env.cr.dictfetchall()
 
             curr_cache = {}
-            (number_waiting, sum_waiting) = self._count_results_and_sum_amounts(query_results_to_pay, currency, curr_cache=curr_cache)
-            (number_draft, sum_draft) = self._count_results_and_sum_amounts(query_results_drafts, currency, curr_cache=curr_cache)
-            (number_late, sum_late) = self._count_results_and_sum_amounts(late_query_results, currency, curr_cache=curr_cache)
-            read = self.env['account.move'].read_group([('journal_id', '=', self.id), ('to_check', '=', True)], ['amount_total'], 'journal_id', lazy=False)
+            (number_waiting, sum_waiting) = self._count_results_and_sum_amounts(
+                query_results_to_pay, currency, curr_cache=curr_cache)
+            (number_draft, sum_draft) = self._count_results_and_sum_amounts(
+                query_results_drafts, currency, curr_cache=curr_cache)
+            (number_late, sum_late) = self._count_results_and_sum_amounts(
+                late_query_results, currency, curr_cache=curr_cache)
+            read = self.env['account.move'].read_group([('journal_id', '=', self.id), ('to_check', '=', True)], [
+                                                       'amount_total'], 'journal_id', lazy=False)
             if read:
                 number_to_check = read[0]['__count']
                 to_check_balance = read[0]['amount_total']
         elif self.type == 'general':
-            read = self.env['account.move'].read_group([('journal_id', '=', self.id), ('to_check', '=', True)], ['amount_total'], 'journal_id', lazy=False)
+            read = self.env['account.move'].read_group([('journal_id', '=', self.id), ('to_check', '=', True)], [
+                                                       'amount_total'], 'journal_id', lazy=False)
             if read:
                 number_to_check = read[0]['__count']
                 to_check_balance = read[0]['amount_total']
 
-        is_sample_data = self.kanban_dashboard_graph and any(data.get('is_sample_data', False) for data in json.loads(self.kanban_dashboard_graph))
+        is_sample_data = self.kanban_dashboard_graph and any(data.get(
+            'is_sample_data', False) for data in json.loads(self.kanban_dashboard_graph))
 
         return {
             'number_to_check': number_to_check,
@@ -387,9 +410,11 @@ class account_journal(models.Model):
         curr_cache = {} if curr_cache is None else curr_cache
         for result in results_dict:
             cur = self.env['res.currency'].browse(result.get('currency'))
-            company = self.env['res.company'].browse(result.get('company_id')) or self.env.company
+            company = self.env['res.company'].browse(
+                result.get('company_id')) or self.env.company
             rslt_count += 1
-            date = result.get('invoice_date') or fields.Date.context_today(self)
+            date = result.get(
+                'invoice_date') or fields.Date.context_today(self)
 
             amount = result.get('amount_total', 0) or 0
             if cur != target_currency:
@@ -397,7 +422,8 @@ class account_journal(models.Model):
                 # Using setdefault will call _get_conversion_rate, so we explicitly check the
                 # existence of the key in the cache instead.
                 if key not in curr_cache:
-                    curr_cache[key] = self.env['res.currency']._get_conversion_rate(*key)
+                    curr_cache[key] = self.env['res.currency']._get_conversion_rate(
+                        *key)
                 amount *= curr_cache[key]
             rslt_sum += target_currency.round(amount)
         return (rslt_count, rslt_sum)
@@ -406,9 +432,11 @@ class account_journal(models.Model):
         ctx = self._context.copy()
         ctx['default_journal_id'] = self.id
         if self.type == 'sale':
-            ctx['default_move_type'] = 'out_refund' if ctx.get('refund') else 'out_invoice'
+            ctx['default_move_type'] = 'out_refund' if ctx.get(
+                'refund') else 'out_invoice'
         elif self.type == 'purchase':
-            ctx['default_move_type'] = 'in_refund' if ctx.get('refund') else 'in_invoice'
+            ctx['default_move_type'] = 'in_refund' if ctx.get(
+                'refund') else 'in_invoice'
         else:
             ctx['default_move_type'] = 'entry'
             ctx['view_no_maturity'] = True
@@ -423,8 +451,10 @@ class account_journal(models.Model):
 
     def create_cash_statement(self):
         ctx = self._context.copy()
-        ctx.update({'journal_id': self.id, 'default_journal_id': self.id, 'default_journal_type': 'cash'})
-        open_statements = self.env['account.bank.statement'].search([('journal_id', '=', self.id), ('state', '=', 'open')])
+        ctx.update({'journal_id': self.id, 'default_journal_id': self.id,
+                    'default_journal_type': 'cash'})
+        open_statements = self.env['account.bank.statement'].search(
+            [('journal_id', '=', self.id), ('state', '=', 'open')])
         action = {
             'name': _('Create cash statement'),
             'type': 'ir.actions.act_window',
@@ -467,7 +497,8 @@ class account_journal(models.Model):
         self.ensure_one()
         domain = self.env['account.move.line']._get_suspense_moves_domain()
         domain.append(('journal_id', '=', self.id))
-        statement_line_ids = self.env['account.move.line'].search(domain).mapped('statement_line_id')
+        statement_line_ids = self.env['account.move.line'].search(
+            domain).mapped('statement_line_id')
         return statement_line_ids
 
     def _select_action_to_open(self):
@@ -507,15 +538,18 @@ class account_journal(models.Model):
             'search_default_journal_id': self.id,
         })
 
-        domain_type_field = action['res_model'] == 'account.move.line' and 'move_id.move_type' or 'move_type' # The model can be either account.move or account.move.line
+        # The model can be either account.move or account.move.line
+        domain_type_field = action['res_model'] == 'account.move.line' and 'move_id.move_type' or 'move_type'
 
         # Override the domain only if the action was not explicitly specified in order to keep the
         # original action domain.
         if not self._context.get('action_name'):
             if self.type == 'sale':
-                action['domain'] = [(domain_type_field, 'in', ('out_invoice', 'out_refund', 'out_receipt'))]
+                action['domain'] = [
+                    (domain_type_field, 'in', ('out_invoice', 'out_refund', 'out_receipt'))]
             elif self.type == 'purchase':
-                action['domain'] = [(domain_type_field, 'in', ('in_invoice', 'in_refund', 'in_receipt', 'entry'))]
+                action['domain'] = [
+                    (domain_type_field, 'in', ('in_invoice', 'in_refund', 'in_receipt', 'entry'))]
 
         return action
 
@@ -536,7 +570,8 @@ class account_journal(models.Model):
         else:
             action_ref = 'account.action_account_payments'
         action = self.env['ir.actions.act_window']._for_xml_id(action_ref)
-        action['context'] = dict(ast.literal_eval(action.get('context')), default_journal_id=self.id, search_default_journal_id=self.id)
+        action['context'] = dict(ast.literal_eval(action.get(
+            'context')), default_journal_id=self.id, search_default_journal_id=self.id)
         if payment_type == 'transfer':
             action['context'].update({
                 'default_partner_id': self.company_id.partner_id.id,
@@ -553,12 +588,15 @@ class account_journal(models.Model):
         ctx = dict(self.env.context, default_journal_id=self.id)
         if ctx.get('search_default_journal', False):
             ctx.update(search_default_journal_id=self.id)
-            ctx['search_default_journal'] = False  # otherwise it will do a useless groupby in bank statements
+            # otherwise it will do a useless groupby in bank statements
+            ctx['search_default_journal'] = False
         ctx.pop('group_by', None)
-        action = self.env['ir.actions.act_window']._for_xml_id(f"account.{action_name}")
+        action = self.env['ir.actions.act_window']._for_xml_id(
+            f"account.{action_name}")
         action['context'] = ctx
         if ctx.get('use_domain', False):
-            action['domain'] = isinstance(ctx['use_domain'], list) and ctx['use_domain'] or ['|', ('journal_id', '=', self.id), ('journal_id', '=', False)]
+            action['domain'] = isinstance(ctx['use_domain'], list) and ctx['use_domain'] or [
+                '|', ('journal_id', '=', self.id), ('journal_id', '=', False)]
             action['name'] = _(
                 "%(action)s for journal %(journal)s",
                 action=action["name"],
@@ -568,7 +606,8 @@ class account_journal(models.Model):
 
     def create_bank_statement(self):
         """return action to create a bank statements. This button should be called only on journals with type =='bank'"""
-        action = self.env["ir.actions.actions"]._for_xml_id("account.action_bank_statement_tree")
+        action = self.env["ir.actions.actions"]._for_xml_id(
+            "account.action_bank_statement_tree")
         action.update({
             'views': [[False, 'form']],
             'context': "{'default_journal_id': " + str(self.id) + "}",
