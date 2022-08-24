@@ -2574,7 +2574,7 @@ msgstr "コピーボタンで内容コピーの上、サポート担当者に報
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
 msgid "Powered by <span>Odoo</span>"
-msgstr "Powered by <span>Odoo</span>"
+msgstr "Powered by <span>Lidoo</span>"
 
 #. module: web
 #. openerp-web

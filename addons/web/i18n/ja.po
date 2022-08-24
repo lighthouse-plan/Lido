@@ -1583,7 +1583,7 @@ msgstr "コピーボタンで内容コピーの上、サポート担当者に報
 
 #: model_terms:ir.ui.view,arch_db:web.login_layout
 msgid "Powered by <span>Odoo</span>"
-msgstr "Powered by <span>Odoo</span>"
+msgstr "Powered by <span>Lidoo</span>"
 
 #: code:addons/web/static/src/xml/base.xml:1549
 msgid "Preferences"
