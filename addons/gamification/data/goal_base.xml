@@ -49,7 +49,7 @@
         </record>
 
         <record model="gamification.goal.definition" id="definition_base_invite">
-            <field name="name">Invite new Users</field>
+            <field name="name">新しいユーザに招待</field>
             <field name="description">Create at least another user</field>
             <field name="display_mode">boolean</field>
             <field name="computation_mode">count</field>
