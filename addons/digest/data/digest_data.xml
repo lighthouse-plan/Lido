@@ -355,7 +355,8 @@
 </div>
 
 <div style="background-color: #eeeeee;">
-<div t-foreach="tips" t-as="tip" t-out="tip" class="global_layout" />
+<div t-foreach="tips" t-as="tip" t-out="tip" class="global_layout" >
+
 
 <div t-if="kpi_data" class="global_layout" style="padding-bottom: 0;">
     <t t-set="kpi_color" t-value="'kpi_border_col'"/>
@@ -421,7 +422,7 @@
     </div>
 </div>
 
-
+</div>  </div>
     </template>
 
 

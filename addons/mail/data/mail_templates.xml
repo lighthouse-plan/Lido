@@ -2,7 +2,7 @@
 <odoo>
     <data>
         <template id="message_notification_email">
-<div>
+
 <div t-if="has_button_access" itemscope="itemscope" itemtype="http://schema.org/EmailMessage">
     <div itemprop="potentialAction" itemscope="itemscope" itemtype="http://schema.org/ViewAction">
         <link itemprop="target" t-att-href="button_access['url']"/>
@@ -43,15 +43,15 @@
     </tr></tbody>
     </table>
 </div>
-<div t-out="message.body"/>
+<div t-out="message.body">
 <ul t-if="tracking_values">
     <t t-foreach="tracking_values" t-as="tracking">
         <li><t t-esc="tracking[0]"/>: <t t-esc="tracking[1]"/> -&gt; <t t-esc="tracking[2]"/></li>
     </t>
 </ul>
-        </template>
-
-        <template id="mail_notification_borders">
+</div>
+</template>
+<template id="mail_notification_borders">
 <div>
 <table border="0" width="100%" cellpadding="0" bgcolor="#ededed" style="padding: 20px; background-color: #ededed; border-collapse:separate;" summary="o_mail_notification">
 <tbody>
@@ -102,7 +102,7 @@
 </tbody>
 </table>
 </div>
-        </template>
+    </template>
 
         <template id="mail_notification_light">
 <table border="0" cellpadding="0" cellspacing="0" style="padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;"><tr><td align="center">
