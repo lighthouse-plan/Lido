@@ -22,10 +22,10 @@
                                         <span class="fa fa-lg fa-users" aria-label="Number of active users"/>
                                         <field name='active_user_count' class="w-auto pl-3 font-weight-bold"/>
                                         <span class='o_form_label' attrs="{'invisible':[('active_user_count', '&gt;', '1')]}">
-                                            Active User
+                                            有効なユーザー
                                         </span>
                                         <span class='o_form_label' attrs="{'invisible':[('active_user_count', '&lt;=', '1')]}">
-                                            Active Users
+                                            有効なユーザー
                                         </span>
                                         <a href="https://www.odoo.com/documentation/15.0/applications/general/users.html" title="Documentation" class="o_doc_link" target="_blank"></a>
                                         <br/>
