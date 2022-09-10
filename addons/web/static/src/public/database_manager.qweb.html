@@ -74,6 +74,21 @@
                             </div>
                         </t>
                     </div>
+                    <t t-if="manage">
+                        <div class="d-flex mt-2">
+                            <button type="button" data-toggle="modal" data-target=".o_database_create"
+                                class="btn btn-primary flex-grow-1">Create Database</button>
+                            <button type="button" data-toggle="modal" data-target=".o_database_restore"
+                                class="btn btn-primary flex-grow-1 ml-2">Restore Database</button>
+                            <button type="button" data-toggle="modal" data-target=".o_database_master"
+                                class="btn btn-primary flex-grow-1 ml-2">Set Master Password</button>
+                        </div>
+                    </t>
+                    <t t-else="">
+                        <div class="text-center mt-2">
+                            <a href="/web/database/manager">Manage databases</a>
+                        </div>
+                    </t>
                 </t>
                 <t t-elif="list_db">
                     <form role="form" action="/web/database/create" method="post">
